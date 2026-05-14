@@ -819,6 +819,88 @@ def main():
             assert "Loaded theory" in out, f"Expected loaded confirmation, got:\n{out}"
         run_test("load_theory_already_loaded", test_load_theory_already_loaded)
 
+        def test_segment_init_mid_proof_qed():
+            """Bug reproducer: Ir.init at a heap-recorded segment inside a
+            proof block loses the `finish` closure — qed does not register
+            the theorem.
+
+            Consequence: when the lemma is inside an opened locale context
+            (`context L begin ... lemma ... proof - ... qed ... end`), the
+            same broken qed also exits the locale — subsequent commands
+            lose access to locale-scoped facts by their short names.
+
+            Uses HOL-Library.Multiset (already loaded by test_load_theory).
+            Lemma `in_countE` has segments:
+              183: lemma in_countE (declaration)
+              185: proof -
+              187: from assms (mid-proof)
+              ...
+              207: qed
+
+            Control: Ir.init at seg 183 (lemma declaration), step the full
+            proof text. After qed, `thm in_countE` resolves.
+
+            Bug: Ir.init at seg 187 (mid-proof), step the remainder through
+            qed. After qed, `thm in_countE` is undefined — the finish
+            closure from the recorded heap segment fails to register the
+            theorem.
+            """
+            # HOL-Library.Multiset was loaded by test_load_theory above.
+            # Segments 183 and 187 are stable (HOL-Library doesn't change).
+
+            def thm_resolves(repl_id, name):
+                out = send_recv(sock,
+                                f'Ir.step {q(repl_id)} "thm {name}";',
+                                timeout=10)
+                return "Undefined fact" not in out
+
+            # --- Control: init at lemma declaration (seg 183) ---
+            send_recv(sock,
+                      'Ir.init "seg_ctl" ["HOL-Library.Multiset:183"];')
+            # Step the full proof from the lemma declaration point.
+            send_recv(sock, 'Ir.step "seg_ctl" '
+                      '"proof - from assms have \\"count M x > 0\\" by simp '
+                      'then obtain n where \\"count M x = Suc n\\" '
+                      'using gr0_conv_Suc by blast '
+                      'with that show thesis . qed";', timeout=30)
+            ctl_out = send_recv(sock, 'Ir.show "seg_ctl";')
+            ctl_resolves = thm_resolves("seg_ctl", "in_countE")
+            send_recv(sock, 'Ir.remove "seg_ctl";')
+
+            # --- Bug case: init at mid-proof (seg 187) ---
+            send_recv(sock,
+                      'Ir.init "seg_bug" ["HOL-Library.Multiset:187"];')
+            # At seg 187, we're in chain mode after "from assms".
+            # Step the proof body through qed.
+            send_recv(sock, 'Ir.step "seg_bug" '
+                      '"have \\"count M x > 0\\" by simp";', timeout=10)
+            send_recv(sock, 'Ir.step "seg_bug" '
+                      '"then obtain n where \\"count M x = Suc n\\" '
+                      'using gr0_conv_Suc by blast";', timeout=10)
+            send_recv(sock, 'Ir.step "seg_bug" '
+                      '"with that show thesis .";', timeout=10)
+            qed_out = send_recv(sock, 'Ir.step "seg_bug" "qed";',
+                                timeout=10)
+            bug_resolves = thm_resolves("seg_bug", "in_countE")
+            send_recv(sock, 'Ir.remove "seg_bug";')
+
+            assert ctl_resolves, \
+                "Control case failed: in_countE not resolvable after " \
+                "stepping from lemma declaration. Test infrastructure broken."
+            assert bug_resolves, (
+                "BUG: Ir.init at a heap-recorded mid-proof segment "
+                "(HOL-Library.Multiset:187), then stepping through qed, "
+                "does not register the theorem. "
+                f"Control qed registered it (resolves={ctl_resolves}). "
+                f"Bug qed output: {qed_out!r}. "
+                "Root cause: the `finish` closure in the Proof node of "
+                "the recorded segment state does not survive heap "
+                "save/load — it exits to bare theory mode without "
+                "registering the theorem name."
+            )
+        run_test("segment_init_mid_proof_qed",
+                 test_segment_init_mid_proof_qed)
+
         sock.close()
 
         # -- Multi-client tests --

@@ -1,0 +1,76 @@
+# SPDX-License-Identifier: MIT
+#
+# Proof-timing MEASURE stage (fork-safe, untrusted context).
+#
+# Builds the AutoCorrode session and extracts per-command wall-clock timings
+# from the build DB into a JSON artifact. Runs on PRs (including from forks) and
+# on pushes to main. Holds only the default READ-ONLY token and never posts
+# comments, so it is safe to run against untrusted PR code. The trusted
+# perf-report.yml workflow consumes the artifact afterwards via workflow_run.
+name: perf-measure
+
+permissions:
+  contents: read
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    types: [ opened, synchronize, reopened ]
+
+concurrency:
+  group: perf-measure-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    container:
+      image: makarius/isabelle:Isabelle2025-2
+      options: --user root
+
+    steps:
+      - name: Checkout AutoCorrode
+        uses: actions/checkout@v3
+
+      - name: Setup Isabelle
+        uses: ./.github/actions/setup-isabelle-action
+
+      # zstandard is REQUIRED: a real build's command_timings blob is
+      # zstd-compressed, and without this module the extractor decodes nothing
+      # and (mis)reports "0 theories". The Isabelle container has no pip, so
+      # install the Debian package (same apt pattern the other workflows use).
+      # Do NOT swallow failure — if we can't decode timings the job is pointless.
+      - name: Install extraction deps
+        run: |
+          apt-get update -qq
+          apt-get install -y -qq python3-zstandard
+          python3 -c "import zstandard; print('zstandard', zstandard.__version__)"
+
+      - name: Build AutoCorrode
+        run: |
+          $ISABELLE_HOME/bin/isabelle build -v -b -d . \
+            -d $AFP_COMPONENT_BASE/Word_Lib \
+            AutoCorrode
+
+      - name: Extract timings
+        run: |
+          python3 perf/extract_timings.py \
+            --session AutoCorrode \
+            --isabelle "$ISABELLE_HOME/bin/isabelle" \
+            --commit "${{ github.event.pull_request.head.sha || github.sha }}" \
+            --out timings.json
+
+      # NOTE: we deliberately do NOT record the PR number here. This job runs
+      # untrusted fork code, so anything it writes is attacker-controlled; the
+      # report stage resolves the PR number itself from the trusted
+      # workflow_run head_sha (see perf-report.yml).
+      - name: Upload timings artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: perf-timings
+          path: timings.json
+          if-no-files-found: error
+          retention-days: 90

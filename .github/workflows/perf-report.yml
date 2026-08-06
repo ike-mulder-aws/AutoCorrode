@@ -1,0 +1,140 @@
+# SPDX-License-Identifier: MIT
+#
+# Proof-timing REPORT stage (trusted context).
+#
+# Triggered when perf-measure.yml finishes. Runs in the BASE repository context
+# with a write token, but never checks out or executes PR code — it only reads
+# the timing JSON artifact the measure stage produced and the latest main
+# baseline, compares them, and upserts a PR comment. That is why it is safe to
+# grant pull-requests: write here even for fork PRs.
+name: perf-report
+
+permissions:
+  contents: read
+  actions: read          # download artifacts from the triggering run + main
+  pull-requests: write   # upsert the PR comment
+
+on:
+  workflow_run:
+    workflows: [ "perf-measure" ]
+    types: [ completed ]
+
+jobs:
+  report:
+    # Only report for PR-triggered measure runs that succeeded. Pushes to main
+    # only publish the baseline; there is nothing to compare against.
+    if: >
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout perf scripts (base repo, trusted)
+        uses: actions/checkout@v3
+
+      - name: Download PR timings (from the triggering run)
+        uses: actions/download-artifact@v4
+        with:
+          name: perf-timings
+          path: pr
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      # SECURITY: the PR number must NOT be taken from the untrusted artifact
+      # (a fork job controls its filesystem and could point the bot's write
+      # token at an arbitrary PR/issue). Derive it in this trusted context from
+      # the workflow_run's head_sha via the API — matching on the head SHA the
+      # runner actually built, plus the head repo, so a fork cannot forge it.
+      - name: Resolve PR number (trusted, from head_sha)
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          HEAD_REPO: ${{ github.event.workflow_run.head_repository.full_name }}
+          BASE_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          # Find open PRs against this repo whose head commit is HEAD_SHA and
+          # whose head repo matches the one that produced the run.
+          num=$(gh api "repos/${BASE_REPO}/commits/${HEAD_SHA}/pulls" \
+                  --jq "[.[] | select(.head.sha==\"${HEAD_SHA}\" \
+                        and .head.repo.full_name==\"${HEAD_REPO}\")] \
+                        | .[0].number" 2>/dev/null || true)
+          if [ -z "$num" ] || [ "$num" = "null" ]; then
+            echo "number=" >> "$GITHUB_OUTPUT"
+            echo "no PR resolved for head_sha=$HEAD_SHA repo=$HEAD_REPO"
+          else
+            echo "number=$num" >> "$GITHUB_OUTPUT"
+            echo "resolved PR #$num"
+          fi
+
+      - name: Download latest main baseline
+        id: baseline
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          # Most recent successful perf-measure run on main.
+          run_id=$(gh run list --workflow perf-measure.yml --branch main \
+            --status success --limit 1 --json databaseId \
+            --jq '.[0].databaseId' 2>/dev/null || true)
+          if [ -n "$run_id" ]; then
+            if gh run download "$run_id" -n perf-timings -D baseline 2>/dev/null; then
+              echo "found=1" >> "$GITHUB_OUTPUT"
+            else
+              echo "found=0" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "found=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Fetch the PR's changed files from the API (trusted context — NOT from
+      # the untrusted artifact) so the ✎ marker / gate scoping can't be forged.
+      # Best-effort: on any failure we simply produce no ✎ markers.
+      - name: Fetch PR changed files
+        if: steps.pr.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_REPO: ${{ github.repository }}
+          PR: ${{ steps.pr.outputs.number }}
+        run: |
+          gh api --paginate "repos/${BASE_REPO}/pulls/${PR}/files" \
+            --jq '.[].filename' > changed-files.txt 2>/dev/null || true
+          echo "changed files:"; cat changed-files.txt 2>/dev/null || true
+
+      - name: Compare and render comment
+        run: |
+          BASE_ARG=""
+          if [ "${{ steps.baseline.outputs.found }}" = "1" ] && [ -f baseline/timings.json ]; then
+            BASE_ARG="--baseline baseline/timings.json"
+            BASE_COMMIT=$(python3 -c "import json;print(json.load(open('baseline/timings.json')).get('commit',''))")
+          fi
+          CHANGED_ARG=""
+          if [ -s changed-files.txt ]; then
+            CHANGED_ARG="--changed-files changed-files.txt"
+          fi
+          RUN_URL="${{ github.event.workflow_run.html_url }}"
+          python3 perf/compare_timings.py \
+            $BASE_ARG $CHANGED_ARG \
+            --current pr/timings.json \
+            --out-md comment.md \
+            --out-diff diff.json \
+            --run-url "$RUN_URL" \
+            --base-commit "${BASE_COMMIT:-}"
+
+      - name: Upload diff artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: perf-diff
+          path: diff.json
+          if-no-files-found: ignore
+
+      - name: Upsert PR comment
+        if: steps.pr.outputs.number != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 perf/report_comment.py \
+            --pr "${{ steps.pr.outputs.number }}" \
+            --body comment.md

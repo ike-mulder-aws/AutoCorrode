@@ -1,0 +1,7886 @@
+{
+ "schema": 1,
+ "session": "AutoCorrode",
+ "commit": "b011deabae784c8de0617f45cbadf477614b4ca9",
+ "total_elapsed_s": 821.772,
+ "theories": {
+  "AutoCorrode.AutoCorrode": {
+   "file": "~/workspace/AutoCorrode/AutoCorrode.thy",
+   "elapsed_s": 5.318,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 5.318
+    }
+   ]
+  },
+  "Autogen.AutoLens": {
+   "file": "~/workspace/AutoCorrode/Autogen/AutoLens.thy",
+   "elapsed_s": 2.044,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.429
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 199,
+     "elapsed_s": 0.41
+    },
+    {
+     "entity": null,
+     "name": "print_theorems",
+     "line": 203,
+     "elapsed_s": 0.62
+    },
+    {
+     "entity": null,
+     "name": "print_theorems",
+     "line": 206,
+     "elapsed_s": 0.419
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 320,
+     "elapsed_s": 0.166
+    }
+   ]
+  },
+  "Autogen.AutoLocality": {
+   "file": "~/workspace/AutoCorrode/Autogen/AutoLocality.thy",
+   "elapsed_s": 0.818,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 23,
+     "elapsed_s": 0.379
+    },
+    {
+     "entity": null,
+     "name": "ML",
+     "line": 57,
+     "elapsed_s": 0.194
+    },
+    {
+     "entity": null,
+     "name": "ML",
+     "line": 622,
+     "elapsed_s": 0.245
+    }
+   ]
+  },
+  "Autogen.AutoLocality_Test0": {
+   "file": "~/workspace/AutoCorrode/Autogen/AutoLocality_Test0.thy",
+   "elapsed_s": 4.846,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 10,
+     "elapsed_s": 0.418
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 42,
+     "elapsed_s": 0.373
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 47,
+     "elapsed_s": 0.186
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 48,
+     "elapsed_s": 0.19
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 49,
+     "elapsed_s": 0.192
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 54,
+     "elapsed_s": 0.171
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 70,
+     "elapsed_s": 0.195
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 80,
+     "elapsed_s": 1.726
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 93,
+     "elapsed_s": 0.168
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 97,
+     "elapsed_s": 0.379
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 156,
+     "elapsed_s": 0.406
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 166,
+     "elapsed_s": 0.442
+    }
+   ]
+  },
+  "Autogen.AutoLocality_Test1": {
+   "file": "~/workspace/AutoCorrode/Autogen/AutoLocality_Test1.thy",
+   "elapsed_s": 0.834,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 10,
+     "elapsed_s": 0.409
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 20,
+     "elapsed_s": 0.425
+    }
+   ]
+  },
+  "Autogen.AutoLocality_Test2": {
+   "file": "~/workspace/AutoCorrode/Autogen/AutoLocality_Test2.thy",
+   "elapsed_s": 1.643,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.183
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 10,
+     "elapsed_s": 0.381
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 12,
+     "elapsed_s": 0.358
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 14,
+     "elapsed_s": 0.354
+    },
+    {
+     "entity": null,
+     "name": "locality_lemma",
+     "line": 16,
+     "elapsed_s": 0.367
+    }
+   ]
+  },
+  "Byte_Level_Encoding.Byte_Encoding_Array": {
+   "file": "~/workspace/AutoCorrode/Byte_Level_Encoding/Byte_Encoding_Array.thy",
+   "elapsed_s": 0.208,
+   "commands": [
+    {
+     "entity": "fun decode_chunks",
+     "name": "fun",
+     "line": 33,
+     "elapsed_s": 0.208
+    }
+   ]
+  },
+  "Byte_Level_Encoding.Byte_Encoding_Enum": {
+   "file": "~/workspace/AutoCorrode/Byte_Level_Encoding/Byte_Encoding_Enum.thy",
+   "elapsed_s": 0.393,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.188
+    },
+    {
+     "entity": null,
+     "name": "define_byte_enum",
+     "line": 92,
+     "elapsed_s": 0.205
+    }
+   ]
+  },
+  "Byte_Level_Encoding.Byte_Encoding_Record": {
+   "file": "~/workspace/AutoCorrode/Byte_Level_Encoding/Byte_Encoding_Record.thy",
+   "elapsed_s": 7.653,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.173
+    },
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 36,
+     "elapsed_s": 0.102
+    },
+    {
+     "entity": null,
+     "name": "define_byte_record",
+     "line": 44,
+     "elapsed_s": 0.833
+    },
+    {
+     "entity": null,
+     "name": "define_byte_record",
+     "line": 53,
+     "elapsed_s": 1.057
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 74,
+     "elapsed_s": 2.016
+    },
+    {
+     "entity": "lemma",
+     "name": "by",
+     "line": 84,
+     "elapsed_s": 1.745
+    },
+    {
+     "entity": "lemma",
+     "name": "by",
+     "line": 89,
+     "elapsed_s": 1.727
+    }
+   ]
+  },
+  "Byte_Level_Encoding.Byte_Encoding_Word_Nat": {
+   "file": "~/workspace/AutoCorrode/Byte_Level_Encoding/Byte_Encoding_Word_Nat.thy",
+   "elapsed_s": 1.652,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.19
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 48,
+     "elapsed_s": 0.185
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 49,
+     "elapsed_s": 0.197
+    },
+    {
+     "entity": "fun nat_to_nat_byte_list_be",
+     "name": "fun",
+     "line": 114,
+     "elapsed_s": 0.122
+    },
+    {
+     "entity": "fun nat_to_nat_byte_list_le",
+     "name": "fun",
+     "line": 126,
+     "elapsed_s": 0.139
+    },
+    {
+     "entity": "lemma nat_to_nat_byte_list_le_nth",
+     "name": "by",
+     "line": 163,
+     "elapsed_s": 0.135
+    },
+    {
+     "entity": "fun nat_to_nat_byte_list_be_core'",
+     "name": "fun",
+     "line": 270,
+     "elapsed_s": 0.313
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 616,
+     "elapsed_s": 0.186
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 652,
+     "elapsed_s": 0.185
+    }
+   ]
+  },
+  "Byte_Level_Encoding.Byte_Level_Encoding": {
+   "file": "~/workspace/AutoCorrode/Byte_Level_Encoding/Byte_Level_Encoding.thy",
+   "elapsed_s": 0.172,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.172
+    }
+   ]
+  },
+  "Byte_Level_Encoding.Byte_Parser": {
+   "file": "~/workspace/AutoCorrode/Byte_Level_Encoding/Byte_Parser.thy",
+   "elapsed_s": 6.877,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.568
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 23,
+     "elapsed_s": 0.961
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 25,
+     "elapsed_s": 0.108
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 99,
+     "elapsed_s": 1.744
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 103,
+     "elapsed_s": 1.737
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 109,
+     "elapsed_s": 1.759
+    }
+   ]
+  },
+  "Byte_Level_Encoding.Focus_Parser": {
+   "file": "~/workspace/AutoCorrode/Byte_Level_Encoding/Focus_Parser.thy",
+   "elapsed_s": 0.528,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.207
+    },
+    {
+     "entity": "datatype",
+     "name": "datatype",
+     "line": 14,
+     "elapsed_s": 0.321
+    }
+   ]
+  },
+  "Byte_Level_Encoding.Niche_Encoding_Option_NonNull": {
+   "file": "~/workspace/AutoCorrode/Byte_Level_Encoding/Niche_Encoding_Option_NonNull.thy",
+   "elapsed_s": 0.316,
+   "commands": [
+    {
+     "entity": null,
+     "name": "lift_definition",
+     "line": 38,
+     "elapsed_s": 0.316
+    }
+   ]
+  },
+  "Crush.Base": {
+   "file": "~/workspace/AutoCorrode/Crush/Base.thy",
+   "elapsed_s": 1.064,
+   "commands": [
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 14,
+     "elapsed_s": 0.103
+    },
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 18,
+     "elapsed_s": 0.152
+    },
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 27,
+     "elapsed_s": 0.282
+    },
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 94,
+     "elapsed_s": 0.205
+    },
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 99,
+     "elapsed_s": 0.322
+    }
+   ]
+  },
+  "Crush.Examples": {
+   "file": "~/workspace/AutoCorrode/Crush/Examples.thy",
+   "elapsed_s": 1.175,
+   "commands": [
+    {
+     "entity": "locale",
+     "name": "locale",
+     "line": 928,
+     "elapsed_s": 0.174
+    },
+    {
+     "entity": null,
+     "name": "apply\u03c4",
+     "line": 1040,
+     "elapsed_s": 1.001
+    }
+   ]
+  },
+  "Crush.Separation_Logic_Tactics": {
+   "file": "~/workspace/AutoCorrode/Crush/Separation_Logic_Tactics.thy",
+   "elapsed_s": 84.887,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 1.922
+    },
+    {
+     "entity": null,
+     "name": "ML",
+     "line": 18,
+     "elapsed_s": 5.282
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 54,
+     "elapsed_s": 0.292
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 73,
+     "elapsed_s": 0.292
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 74,
+     "elapsed_s": 0.265
+    },
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 76,
+     "elapsed_s": 0.745
+    },
+    {
+     "entity": null,
+     "name": "local_setup",
+     "line": 81,
+     "elapsed_s": 19.319
+    },
+    {
+     "entity": null,
+     "name": "local_setup",
+     "line": 82,
+     "elapsed_s": 0.311
+    },
+    {
+     "entity": null,
+     "name": "local_setup",
+     "line": 87,
+     "elapsed_s": 11.059
+    },
+    {
+     "entity": null,
+     "name": "ML",
+     "line": 120,
+     "elapsed_s": 40.742
+    },
+    {
+     "entity": null,
+     "name": "ML",
+     "line": 239,
+     "elapsed_s": 3.335
+    },
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 298,
+     "elapsed_s": 0.327
+    },
+    {
+     "entity": null,
+     "name": "method",
+     "line": 464,
+     "elapsed_s": 0.388
+    },
+    {
+     "entity": null,
+     "name": "method",
+     "line": 470,
+     "elapsed_s": 0.608
+    }
+   ]
+  },
+  "Data_Structures.BraunTreeAdditional": {
+   "file": "~/workspace/AutoCorrode/Data_Structures/BraunTreeAdditional.thy",
+   "elapsed_s": 9.425,
+   "commands": [
+    {
+     "entity": "lemma tree_map_lookup1_aux",
+     "name": "by",
+     "line": 33,
+     "elapsed_s": 0.469
+    },
+    {
+     "entity": "lemma tree_map_lookup1_aux",
+     "name": "by",
+     "line": 37,
+     "elapsed_s": 1.405
+    },
+    {
+     "entity": "fun braun_take",
+     "name": "fun",
+     "line": 46,
+     "elapsed_s": 0.144
+    },
+    {
+     "entity": "lemma size_braun_take",
+     "name": "by",
+     "line": 80,
+     "elapsed_s": 0.296
+    },
+    {
+     "entity": "lemma size_braun_take",
+     "name": "by",
+     "line": 82,
+     "elapsed_s": 0.213
+    },
+    {
+     "entity": "lemma size_braun_take",
+     "name": "by",
+     "line": 84,
+     "elapsed_s": 3.908
+    },
+    {
+     "entity": "lemma size_braun_take",
+     "name": "by",
+     "line": 86,
+     "elapsed_s": 0.522
+    },
+    {
+     "entity": "lemma braun_braun_take",
+     "name": "by",
+     "line": 109,
+     "elapsed_s": 0.665
+    },
+    {
+     "entity": "lemma splice_take",
+     "name": "by",
+     "line": 120,
+     "elapsed_s": 0.149
+    },
+    {
+     "entity": "lemma braun_tree_ext",
+     "name": "by",
+     "line": 229,
+     "elapsed_s": 0.146
+    },
+    {
+     "entity": "lemma braun_tree_ext",
+     "name": "by",
+     "line": 234,
+     "elapsed_s": 0.157
+    },
+    {
+     "entity": "lemma braun_tree_ext",
+     "name": "by",
+     "line": 237,
+     "elapsed_s": 1.351
+    }
+   ]
+  },
+  "Data_Structures.BraunTrees": {
+   "file": "~/workspace/AutoCorrode/Data_Structures/BraunTrees.thy",
+   "elapsed_s": 24.812,
+   "commands": [
+    {
+     "entity": "datatype 'a",
+     "name": "datatype",
+     "line": 27,
+     "elapsed_s": 0.798
+    },
+    {
+     "entity": "fun tree_right",
+     "name": "fun",
+     "line": 35,
+     "elapsed_s": 0.184
+    },
+    {
+     "entity": "fun size1",
+     "name": "fun",
+     "line": 41,
+     "elapsed_s": 0.115
+    },
+    {
+     "entity": "fun complete",
+     "name": "fun",
+     "line": 67,
+     "elapsed_s": 0.238
+    },
+    {
+     "entity": "fun bst_wrt",
+     "name": "fun",
+     "line": 103,
+     "elapsed_s": 0.111
+    },
+    {
+     "entity": "lemma eq_map_tree_Leaf",
+     "name": "by",
+     "line": 118,
+     "elapsed_s": 0.126
+    },
+    {
+     "entity": "lemma size1_height_if_incomplete",
+     "name": "by",
+     "line": 330,
+     "elapsed_s": 0.148
+    },
+    {
+     "entity": "lemma braun_unique",
+     "name": "by",
+     "line": 582,
+     "elapsed_s": 0.172
+    },
+    {
+     "entity": "lemma braun_indices_if_braun",
+     "name": "by",
+     "line": 628,
+     "elapsed_s": 0.551
+    },
+    {
+     "entity": "lemma braun_indices_if_braun",
+     "name": "by",
+     "line": 636,
+     "elapsed_s": 0.134
+    },
+    {
+     "entity": "lemma braun_indices_if_braun",
+     "name": "by",
+     "line": 639,
+     "elapsed_s": 0.716
+    },
+    {
+     "entity": "lemma card_braun_indices",
+     "name": "by",
+     "line": 656,
+     "elapsed_s": 0.13
+    },
+    {
+     "entity": "lemma even_of_intvl_intvl",
+     "name": "by",
+     "line": 686,
+     "elapsed_s": 0.175
+    },
+    {
+     "entity": "lemma odd_of_intvl_intvl",
+     "name": "by",
+     "line": 697,
+     "elapsed_s": 0.142
+    },
+    {
+     "entity": "lemma braun_if_braun_indices",
+     "name": "by",
+     "line": 733,
+     "elapsed_s": 0.175
+    },
+    {
+     "entity": "lemma braun_if_braun_indices",
+     "name": "by",
+     "line": 736,
+     "elapsed_s": 0.173
+    },
+    {
+     "entity": "lemma braun_if_braun_indices",
+     "name": "by",
+     "line": 741,
+     "elapsed_s": 0.964
+    },
+    {
+     "entity": "fun lookup1",
+     "name": "fun",
+     "line": 753,
+     "elapsed_s": 0.112
+    },
+    {
+     "entity": "fun update1",
+     "name": "fun",
+     "line": 757,
+     "elapsed_s": 0.14
+    },
+    {
+     "entity": "fun adds",
+     "name": "fun",
+     "line": 767,
+     "elapsed_s": 0.11
+    },
+    {
+     "entity": "lemma minus1_div2",
+     "name": "by",
+     "line": 783,
+     "elapsed_s": 0.883
+    },
+    {
+     "entity": "lemma div2_in_bounds",
+     "name": "by",
+     "line": 812,
+     "elapsed_s": 0.312
+    },
+    {
+     "entity": "lemma nth_list_lookup1",
+     "name": "by",
+     "line": 827,
+     "elapsed_s": 0.313
+    },
+    {
+     "entity": "lemma size_update1",
+     "name": "by",
+     "line": 848,
+     "elapsed_s": 0.112
+    },
+    {
+     "entity": "lemma braun_update1",
+     "name": "by",
+     "line": 862,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": "lemma lookup1_update1",
+     "name": "by",
+     "line": 878,
+     "elapsed_s": 2.97
+    },
+    {
+     "entity": "lemma list_update2",
+     "name": "by",
+     "line": 913,
+     "elapsed_s": 0.471
+    },
+    {
+     "entity": "lemma braun_add_hi",
+     "name": "by",
+     "line": 938,
+     "elapsed_s": 0.136
+    },
+    {
+     "entity": "fun merge",
+     "name": "fun",
+     "line": 959,
+     "elapsed_s": 0.39
+    },
+    {
+     "entity": "fun del_lo",
+     "name": "fun",
+     "line": 963,
+     "elapsed_s": 0.11
+    },
+    {
+     "entity": "fun del_hi",
+     "name": "fun",
+     "line": 967,
+     "elapsed_s": 0.141
+    },
+    {
+     "entity": "lemma list_del_hi",
+     "name": "by",
+     "line": 1027,
+     "elapsed_s": 0.533
+    },
+    {
+     "entity": "lemma braun_del_hi",
+     "name": "by",
+     "line": 1033,
+     "elapsed_s": 0.216
+    },
+    {
+     "entity": "fun tree_diff",
+     "name": "fun",
+     "line": 1039,
+     "elapsed_s": 0.128
+    },
+    {
+     "entity": "lemma diff",
+     "name": "by",
+     "line": 1052,
+     "elapsed_s": 0.601
+    },
+    {
+     "entity": "fun braun_of_naive",
+     "name": "fun",
+     "line": 1061,
+     "elapsed_s": 0.244
+    },
+    {
+     "entity": "fun braun2_of",
+     "name": "fun",
+     "line": 1072,
+     "elapsed_s": 0.103
+    },
+    {
+     "entity": "lemma braun2_of_size_braun",
+     "name": "by",
+     "line": 1092,
+     "elapsed_s": 2.876
+    },
+    {
+     "entity": "lemma braun2_of_replicate",
+     "name": "by",
+     "line": 1103,
+     "elapsed_s": 1.589
+    },
+    {
+     "entity": "fun take_nths",
+     "name": "fun",
+     "line": 1121,
+     "elapsed_s": 0.121
+    },
+    {
+     "entity": "lemma take_nths_eq_nths",
+     "name": "apply",
+     "line": 1147,
+     "elapsed_s": 0.201
+    },
+    {
+     "entity": "fun is_braun_list",
+     "name": "fun",
+     "line": 1191,
+     "elapsed_s": 0.515
+    },
+    {
+     "entity": "lemma braun_list_eq",
+     "name": "by",
+     "line": 1206,
+     "elapsed_s": 0.222
+    },
+    {
+     "entity": "fun nodes",
+     "name": "fun",
+     "line": 1211,
+     "elapsed_s": 0.244
+    },
+    {
+     "entity": "fun brauns",
+     "name": "fun",
+     "line": 1218,
+     "elapsed_s": 0.1
+    },
+    {
+     "entity": "fun T_brauns",
+     "name": "fun",
+     "line": 1228,
+     "elapsed_s": 0.115
+    },
+    {
+     "entity": "theorem brauns_correct",
+     "name": "by",
+     "line": 1269,
+     "elapsed_s": 0.54
+    },
+    {
+     "entity": "lemma list_fast_rec_term",
+     "name": "by",
+     "line": 1363,
+     "elapsed_s": 0.668
+    },
+    {
+     "entity": "lemma take_nths_eq_single",
+     "name": "by",
+     "line": 1391,
+     "elapsed_s": 0.205
+    },
+    {
+     "entity": "theorem list_fast_rec_correct",
+     "name": "apply",
+     "line": 1418,
+     "elapsed_s": 0.277
+    },
+    {
+     "entity": "theorem list_fast_rec_correct",
+     "name": "apply",
+     "line": 1421,
+     "elapsed_s": 0.113
+    },
+    {
+     "entity": "theorem T_list_fast_rec_ub",
+     "name": "by",
+     "line": 1472,
+     "elapsed_s": 1.657
+    },
+    {
+     "entity": "theorem T_list_fast_rec_ub",
+     "name": "by",
+     "line": 1474,
+     "elapsed_s": 2.155
+    }
+   ]
+  },
+  "Data_Structures.Data_Structures": {
+   "file": "~/workspace/AutoCorrode/Data_Structures/Data_Structures.thy",
+   "elapsed_s": 0.51,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.51
+    }
+   ]
+  },
+  "Data_Structures.RedBlackTree_Extensional": {
+   "file": "~/workspace/AutoCorrode/Data_Structures/RedBlackTree_Extensional.thy",
+   "elapsed_s": 0.455,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.298
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 184,
+     "elapsed_s": 0.157
+    }
+   ]
+  },
+  "Data_Structures.Sorted_Association_List": {
+   "file": "~/workspace/AutoCorrode/Data_Structures/Sorted_Association_List.thy",
+   "elapsed_s": 2.516,
+   "commands": [
+    {
+     "entity": "lemma salist_lt_ConsI",
+     "name": "by",
+     "line": 36,
+     "elapsed_s": 0.393
+    },
+    {
+     "entity": "fun ainsert",
+     "name": "fun",
+     "line": 47,
+     "elapsed_s": 0.145
+    },
+    {
+     "entity": "lemma ainsert_salist_inv_preserve",
+     "name": "by",
+     "line": 92,
+     "elapsed_s": 0.456
+    },
+    {
+     "entity": "lemma map_of_ainsert_neq",
+     "name": "by",
+     "line": 108,
+     "elapsed_s": 0.338
+    },
+    {
+     "entity": "fun adelete",
+     "name": "fun",
+     "line": 111,
+     "elapsed_s": 0.231
+    },
+    {
+     "entity": "lemma adelete_salist_inv_preserve",
+     "name": "by",
+     "line": 165,
+     "elapsed_s": 0.729
+    },
+    {
+     "entity": "lemma salist_induction",
+     "name": "by",
+     "line": 312,
+     "elapsed_s": 0.224
+    }
+   ]
+  },
+  "Enum_Theory.Enum_Theory": {
+   "file": "~/workspace/AutoCorrode/Enum_Theory/Enum_Theory.thy",
+   "elapsed_s": 0.28,
+   "commands": [
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 44,
+     "elapsed_s": 0.28
+    }
+   ]
+  },
+  "Lenses_And_Other_Optics.Array_Optics": {
+   "file": "~/workspace/AutoCorrode/Lenses_And_Other_Optics/Array_Optics.thy",
+   "elapsed_s": 2.52,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.274
+    },
+    {
+     "entity": "lemma nth_focus_array_components",
+     "name": "by",
+     "line": 32,
+     "elapsed_s": 2.246
+    }
+   ]
+  },
+  "Lenses_And_Other_Optics.Focus": {
+   "file": "~/workspace/AutoCorrode/Lenses_And_Other_Optics/Focus.thy",
+   "elapsed_s": 10.183,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 22,
+     "elapsed_s": 0.986
+    },
+    {
+     "entity": "lemma focus_raw_laws_update",
+     "name": "by",
+     "line": 112,
+     "elapsed_s": 0.175
+    },
+    {
+     "entity": "lemma is_valid_focus_via_modify",
+     "name": "by",
+     "line": 133,
+     "elapsed_s": 0.1
+    },
+    {
+     "entity": "lemma is_valid_view_modify_modify_via_update",
+     "name": "by",
+     "line": 165,
+     "elapsed_s": 0.14
+    },
+    {
+     "entity": "lemma is_valid_view_modify_modify_via_update",
+     "name": "by",
+     "line": 173,
+     "elapsed_s": 0.174
+    },
+    {
+     "entity": "lemma focus_raw_compose_valid_core",
+     "name": "by",
+     "line": 314,
+     "elapsed_s": 0.173
+    },
+    {
+     "entity": "lemma focus_raw_compose_assoc",
+     "name": "by",
+     "line": 388,
+     "elapsed_s": 4.311
+    },
+    {
+     "entity": "lemma focus_raw_factors_prism_valid",
+     "name": "by",
+     "line": 665,
+     "elapsed_s": 0.148
+    },
+    {
+     "entity": "lemma focus_raw_factors_prism_valid",
+     "name": "by",
+     "line": 693,
+     "elapsed_s": 0.178
+    },
+    {
+     "entity": "lemma product_focus_raw_valid",
+     "name": "by",
+     "line": 744,
+     "elapsed_s": 3.442
+    },
+    {
+     "entity": "lemma focus_factors_modify",
+     "name": "by",
+     "line": 897,
+     "elapsed_s": 0.356
+    }
+   ]
+  },
+  "Lenses_And_Other_Optics.Focused_Types": {
+   "file": "~/workspace/AutoCorrode/Lenses_And_Other_Optics/Focused_Types.thy",
+   "elapsed_s": 0.45,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 15,
+     "elapsed_s": 0.45
+    }
+   ]
+  },
+  "Lenses_And_Other_Optics.Lens": {
+   "file": "~/workspace/AutoCorrode/Lenses_And_Other_Optics/Lens.thy",
+   "elapsed_s": 0.932,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 30,
+     "elapsed_s": 0.832
+    },
+    {
+     "entity": "lemma disjoint_compose",
+     "name": "by",
+     "line": 314,
+     "elapsed_s": 0.1
+    }
+   ]
+  },
+  "Lenses_And_Other_Optics.Lenses_And_Other_Optics": {
+   "file": "~/workspace/AutoCorrode/Lenses_And_Other_Optics/Lenses_And_Other_Optics.thy",
+   "elapsed_s": 0.722,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.722
+    }
+   ]
+  },
+  "Lenses_And_Other_Optics.List_Optics": {
+   "file": "~/workspace/AutoCorrode/Lenses_And_Other_Optics/List_Optics.thy",
+   "elapsed_s": 0.363,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.363
+    }
+   ]
+  },
+  "Lenses_And_Other_Optics.Prism": {
+   "file": "~/workspace/AutoCorrode/Lenses_And_Other_Optics/Prism.thy",
+   "elapsed_s": 1.524,
+   "commands": [
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 11,
+     "elapsed_s": 0.291
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 12,
+     "elapsed_s": 0.138
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 13,
+     "elapsed_s": 0.143
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 14,
+     "elapsed_s": 0.131
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 15,
+     "elapsed_s": 0.135
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 16,
+     "elapsed_s": 0.143
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 28,
+     "elapsed_s": 0.543
+    }
+   ]
+  },
+  "Lenses_And_Other_Optics.Result_Optics": {
+   "file": "~/workspace/AutoCorrode/Lenses_And_Other_Optics/Result_Optics.thy",
+   "elapsed_s": 0.189,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.189
+    }
+   ]
+  },
+  "Lenses_And_Other_Optics.Vector_Optics": {
+   "file": "~/workspace/AutoCorrode/Lenses_And_Other_Optics/Vector_Optics.thy",
+   "elapsed_s": 0.385,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.385
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Basic_Micro_Rust": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Basic_Micro_Rust.thy",
+   "elapsed_s": 15.792,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.391
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 112,
+     "elapsed_s": 1.438
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 120,
+     "elapsed_s": 1.289
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 134,
+     "elapsed_s": 1.288
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 145,
+     "elapsed_s": 0.843
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 147,
+     "elapsed_s": 0.247
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 148,
+     "elapsed_s": 0.134
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 149,
+     "elapsed_s": 0.147
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 160,
+     "elapsed_s": 1.715
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 168,
+     "elapsed_s": 1.724
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 208,
+     "elapsed_s": 1.233
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 253,
+     "elapsed_s": 2.321
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 261,
+     "elapsed_s": 2.286
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 282,
+     "elapsed_s": 0.591
+    },
+    {
+     "entity": "locale",
+     "name": "locale",
+     "line": 361,
+     "elapsed_s": 0.145
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Crush_Examples": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Crush_Examples.thy",
+   "elapsed_s": 69.736,
+   "commands": [
+    {
+     "entity": "lemma",
+     "name": "apply",
+     "line": 932,
+     "elapsed_s": 2.027
+    },
+    {
+     "entity": null,
+     "name": "context",
+     "line": 946,
+     "elapsed_s": 0.118
+    },
+    {
+     "entity": "function specifications",
+     "name": "apply",
+     "line": 977,
+     "elapsed_s": 0.115
+    },
+    {
+     "entity": "lemma rotate_ref3_spec",
+     "name": "apply",
+     "line": 1148,
+     "elapsed_s": 0.22
+    },
+    {
+     "entity": "lemma rotate_ref3_spec'",
+     "name": "apply",
+     "line": 1158,
+     "elapsed_s": 0.192
+    },
+    {
+     "entity": "lemma",
+     "name": "apply",
+     "line": 1175,
+     "elapsed_s": 0.117
+    },
+    {
+     "entity": "lemma",
+     "name": "by",
+     "line": 1190,
+     "elapsed_s": 0.108
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1204,
+     "elapsed_s": 0.579
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1209,
+     "elapsed_s": 1.7
+    },
+    {
+     "entity": null,
+     "name": "micro_rust_record",
+     "line": 1231,
+     "elapsed_s": 2.973
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1233,
+     "elapsed_s": 0.734
+    },
+    {
+     "entity": null,
+     "name": "micro_rust_record",
+     "line": 1236,
+     "elapsed_s": 0.17
+    },
+    {
+     "entity": "definition test_record2_zeroize",
+     "name": "definition",
+     "line": 1324,
+     "elapsed_s": 0.642
+    },
+    {
+     "entity": "lemma test_record2_zeroize_contract_spec",
+     "name": "apply",
+     "line": 1441,
+     "elapsed_s": 0.455
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1444,
+     "elapsed_s": 26.652
+    },
+    {
+     "entity": "lemma test_record3_zero_field_spec",
+     "name": "by",
+     "line": 1474,
+     "elapsed_s": 0.143
+    },
+    {
+     "entity": "definition test_record3_zeroize",
+     "name": "definition",
+     "line": 1477,
+     "elapsed_s": 0.464
+    },
+    {
+     "entity": "lemma test_record3_zeroize_spec",
+     "name": "proof",
+     "line": 1558,
+     "elapsed_s": 0.237
+    },
+    {
+     "entity": "lemma test_record3_zeroize_spec",
+     "name": "by",
+     "line": 1583,
+     "elapsed_s": 2.081
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1589,
+     "elapsed_s": 0.576
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1590,
+     "elapsed_s": 0.955
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1591,
+     "elapsed_s": 1.26
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1592,
+     "elapsed_s": 1.747
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1593,
+     "elapsed_s": 2.314
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1594,
+     "elapsed_s": 3.395
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1595,
+     "elapsed_s": 3.716
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1596,
+     "elapsed_s": 4.487
+    },
+    {
+     "entity": null,
+     "name": "step",
+     "line": 1597,
+     "elapsed_s": 11.559
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Linked_List": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Linked_List.thy",
+   "elapsed_s": 4.134,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 20,
+     "elapsed_s": 1.197
+    },
+    {
+     "entity": null,
+     "name": "micro_rust_record",
+     "line": 23,
+     "elapsed_s": 0.12
+    },
+    {
+     "entity": "locale ll_example_basic",
+     "name": "locale",
+     "line": 25,
+     "elapsed_s": 0.143
+    },
+    {
+     "entity": "definition reverse_unlink",
+     "name": "definition",
+     "line": 53,
+     "elapsed_s": 0.108
+    },
+    {
+     "entity": "fun ll_points_to",
+     "name": "fun",
+     "line": 77,
+     "elapsed_s": 0.431
+    },
+    {
+     "entity": null,
+     "name": "ucincl_proof",
+     "line": 118,
+     "elapsed_s": 0.129
+    },
+    {
+     "entity": "lemma reverse_unlink_spec",
+     "name": "apply",
+     "line": 123,
+     "elapsed_s": 0.129
+    },
+    {
+     "entity": "lemma reverse_unlink_spec",
+     "name": "apply",
+     "line": 124,
+     "elapsed_s": 0.279
+    },
+    {
+     "entity": "lemma reverse_unlink_spec",
+     "name": "apply",
+     "line": 134,
+     "elapsed_s": 0.5
+    },
+    {
+     "entity": "lemma reverse_unlink_spec",
+     "name": "apply",
+     "line": 135,
+     "elapsed_s": 0.652
+    },
+    {
+     "entity": "locale ll_example",
+     "name": "locale",
+     "line": 140,
+     "elapsed_s": 0.187
+    },
+    {
+     "entity": "lemma reverse_unlink'_spec",
+     "name": "by",
+     "line": 183,
+     "elapsed_s": 0.259
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Linked_List_Executable_Heap": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Linked_List_Executable_Heap.thy",
+   "elapsed_s": 14.553,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.573
+    },
+    {
+     "entity": "datatype ll_example_gv",
+     "name": "datatype",
+     "line": 29,
+     "elapsed_s": 0.951
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 89,
+     "elapsed_s": 0.146
+    },
+    {
+     "entity": "lemma ll_example_caddr_id_prism_valid",
+     "name": "qed",
+     "line": 118,
+     "elapsed_s": 0.287
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 169,
+     "elapsed_s": 4.195
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 172,
+     "elapsed_s": 4.177
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 175,
+     "elapsed_s": 4.224
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Linked_List_Executable_Hybrid": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Linked_List_Executable_Hybrid.thy",
+   "elapsed_s": 13.457,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 1.259
+    },
+    {
+     "entity": null,
+     "name": "lift_definition",
+     "line": 39,
+     "elapsed_s": 0.133
+    },
+    {
+     "entity": "datatype heap_gv",
+     "name": "datatype",
+     "line": 83,
+     "elapsed_s": 0.501
+    },
+    {
+     "entity": "lemma gref_iso_prism_is_valid",
+     "name": "by",
+     "line": 146,
+     "elapsed_s": 0.148
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 178,
+     "elapsed_s": 0.194
+    },
+    {
+     "entity": "definition",
+     "name": "done",
+     "line": 207,
+     "elapsed_s": 0.363
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 251,
+     "elapsed_s": 1.533
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 279,
+     "elapsed_s": 2.077
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 322,
+     "elapsed_s": 7.249
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Linked_List_Executable_Physical_Memory": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Linked_List_Executable_Physical_Memory.thy",
+   "elapsed_s": 10.458,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 1.288
+    },
+    {
+     "entity": "lemma gref_iso_prism_is_valid",
+     "name": "by",
+     "line": 24,
+     "elapsed_s": 0.14
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 85,
+     "elapsed_s": 0.322
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 126,
+     "elapsed_s": 0.865
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 155,
+     "elapsed_s": 1.933
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 157,
+     "elapsed_s": 0.271
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 204,
+     "elapsed_s": 5.639
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Micro_Rust_Examples": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Micro_Rust_Examples.thy",
+   "elapsed_s": 2.99,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 2.99
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Pullback_Example": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Pullback_Example.thy",
+   "elapsed_s": 5.183,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 1.644
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 52,
+     "elapsed_s": 0.435
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 52,
+     "elapsed_s": 0.166
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 78,
+     "elapsed_s": 2.938
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Reference_Examples": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Reference_Examples.thy",
+   "elapsed_s": 35.934,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 1.268
+    },
+    {
+     "entity": "locale SwapRefContext",
+     "name": "locale",
+     "line": 28,
+     "elapsed_s": 0.127
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 99,
+     "elapsed_s": 1.115
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 132,
+     "elapsed_s": 1.339
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 138,
+     "elapsed_s": 1.383
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 156,
+     "elapsed_s": 2.924
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 164,
+     "elapsed_s": 1.633
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 176,
+     "elapsed_s": 1.437
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 191,
+     "elapsed_s": 2.557
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 227,
+     "elapsed_s": 2.288
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 246,
+     "elapsed_s": 0.854
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 249,
+     "elapsed_s": 4.545
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 255,
+     "elapsed_s": 4.738
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 263,
+     "elapsed_s": 4.875
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 316,
+     "elapsed_s": 4.851
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Showcase": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Showcase.thy",
+   "elapsed_s": 1.512,
+   "commands": [
+    {
+     "entity": "locale showcase_ctx",
+     "name": "locale",
+     "line": 16,
+     "elapsed_s": 0.184
+    },
+    {
+     "entity": "lemma ref_test_spec",
+     "name": "apply",
+     "line": 75,
+     "elapsed_s": 0.286
+    },
+    {
+     "entity": "lemma swap_client_spec_using_swap_spec",
+     "name": "apply",
+     "line": 135,
+     "elapsed_s": 0.144
+    },
+    {
+     "entity": "lemma swap_client_inline_spec",
+     "name": "apply",
+     "line": 142,
+     "elapsed_s": 0.247
+    },
+    {
+     "entity": "lemma sum_spec",
+     "name": "apply",
+     "line": 193,
+     "elapsed_s": 0.147
+    },
+    {
+     "entity": "lemma sum_spec",
+     "name": "by",
+     "line": 216,
+     "elapsed_s": 0.504
+    }
+   ]
+  },
+  "Micro_Rust_Examples.Tutorial": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Examples/Tutorial.thy",
+   "elapsed_s": 6.227,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 25,
+     "elapsed_s": 0.899
+    },
+    {
+     "entity": null,
+     "name": "micro_rust_record",
+     "line": 28,
+     "elapsed_s": 0.157
+    },
+    {
+     "entity": "locale tutorial_ctx",
+     "name": "locale",
+     "line": 39,
+     "elapsed_s": 0.162
+    },
+    {
+     "entity": "definition bvec_is_empty_contract",
+     "name": "definition",
+     "line": 232,
+     "elapsed_s": 0.115
+    },
+    {
+     "entity": "lemma bvec_contains_spec",
+     "name": "apply",
+     "line": 318,
+     "elapsed_s": 0.123
+    },
+    {
+     "entity": "lemma abs_diff_spec_solution",
+     "name": "apply",
+     "line": 462,
+     "elapsed_s": 0.113
+    },
+    {
+     "entity": "lemma abs_diff_spec_solution",
+     "name": "apply",
+     "line": 463,
+     "elapsed_s": 0.29
+    },
+    {
+     "entity": "lemma bvec_is_empty_spec_solution",
+     "name": "apply",
+     "line": 501,
+     "elapsed_s": 0.139
+    },
+    {
+     "entity": "lemma bvec_get_spec_solution",
+     "name": "apply",
+     "line": 515,
+     "elapsed_s": 0.185
+    },
+    {
+     "entity": "lemma bvec_contains_spec_solution",
+     "name": "apply",
+     "line": 526,
+     "elapsed_s": 0.135
+    },
+    {
+     "entity": "lemma bvec_contains_spec_solution",
+     "name": "apply",
+     "line": 535,
+     "elapsed_s": 1.359
+    },
+    {
+     "entity": "lemma bvec_contains_spec_solution",
+     "name": "apply",
+     "line": 537,
+     "elapsed_s": 1.804
+    },
+    {
+     "entity": "lemma bvec_push_spec_solution",
+     "name": "apply",
+     "line": 574,
+     "elapsed_s": 0.746
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces.Global_Perm_Store": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces/Global_Perm_Store.thy",
+   "elapsed_s": 3.435,
+   "commands": [
+    {
+     "entity": "locale global_perm_store",
+     "name": "locale",
+     "line": 10,
+     "elapsed_s": 0.113
+    },
+    {
+     "entity": "lemma points_to_raw_split1",
+     "name": "by",
+     "line": 136,
+     "elapsed_s": 0.815
+    },
+    {
+     "entity": "lemma alloc_and_write_spec_raw",
+     "name": "by",
+     "line": 187,
+     "elapsed_s": 0.275
+    },
+    {
+     "entity": "corollary urust_eval_predicate_reference_raw_local",
+     "name": "by",
+     "line": 259,
+     "elapsed_s": 0.48
+    },
+    {
+     "entity": "lemma striple_ref_raw",
+     "name": "by",
+     "line": 305,
+     "elapsed_s": 0.171
+    },
+    {
+     "entity": "lemma urust_eval_predicate_modify_raw_local",
+     "name": "by",
+     "line": 444,
+     "elapsed_s": 0.199
+    },
+    {
+     "entity": "lemma striple_modify_raw",
+     "name": "by",
+     "line": 467,
+     "elapsed_s": 0.123
+    },
+    {
+     "entity": "lemma striple_modify_raw",
+     "name": "by",
+     "line": 469,
+     "elapsed_s": 0.466
+    },
+    {
+     "entity": "lemma striple_modify_raw",
+     "name": "by",
+     "line": 483,
+     "elapsed_s": 0.462
+    },
+    {
+     "entity": "lemma reference_sublocale",
+     "name": "lemma",
+     "line": 579,
+     "elapsed_s": 0.173
+    },
+    {
+     "entity": "lemma reference_sublocale",
+     "name": "show",
+     "line": 583,
+     "elapsed_s": 0.158
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces.Micro_Rust_Interfaces": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces/Micro_Rust_Interfaces.thy",
+   "elapsed_s": 1.504,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 1.504
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces.Pair_References": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces/Pair_References.thy",
+   "elapsed_s": 1.037,
+   "commands": [
+    {
+     "entity": "locale Reference_Pair",
+     "name": "locale",
+     "line": 51,
+     "elapsed_s": 0.11
+    },
+    {
+     "entity": "lemma update_raw_fun_spec",
+     "name": "by",
+     "line": 155,
+     "elapsed_s": 0.342
+    },
+    {
+     "entity": "lemma dereference_raw_fun_spec",
+     "name": "apply",
+     "line": 164,
+     "elapsed_s": 0.111
+    },
+    {
+     "entity": "lemma points_to_combine",
+     "name": "by",
+     "line": 190,
+     "elapsed_s": 0.296
+    },
+    {
+     "entity": "lemma points_to_split",
+     "name": "by",
+     "line": 204,
+     "elapsed_s": 0.178
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces.Raw_Physical_Memory_References": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces/Raw_Physical_Memory_References.thy",
+   "elapsed_s": 4.255,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.782
+    },
+    {
+     "entity": "lemma points_to_tagged_phys_byte_combinesplit",
+     "name": "by",
+     "line": 37,
+     "elapsed_s": 0.189
+    },
+    {
+     "entity": null,
+     "name": "ucincl_auto",
+     "line": 40,
+     "elapsed_s": 0.112
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 46,
+     "elapsed_s": 1.226
+    },
+    {
+     "entity": "lemma update_raw_fun_spec",
+     "name": "apply",
+     "line": 185,
+     "elapsed_s": 0.106
+    },
+    {
+     "entity": "lemma update_raw_fun_spec",
+     "name": "apply",
+     "line": 186,
+     "elapsed_s": 0.186
+    },
+    {
+     "entity": "lemma update_raw_fun_spec",
+     "name": "apply",
+     "line": 192,
+     "elapsed_s": 0.765
+    },
+    {
+     "entity": "lemma update_raw_fun_spec",
+     "name": "apply",
+     "line": 195,
+     "elapsed_s": 0.276
+    },
+    {
+     "entity": "lemma dereference_raw_fun_spec",
+     "name": "apply",
+     "line": 217,
+     "elapsed_s": 0.184
+    },
+    {
+     "entity": "lemma dereference_raw_fun_spec",
+     "name": "apply",
+     "line": 220,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": "lemma dereference_raw_fun_spec",
+     "name": "apply",
+     "line": 221,
+     "elapsed_s": 0.151
+    },
+    {
+     "entity": "lemma points_to_tagged_bytes_join",
+     "name": "apply",
+     "line": 247,
+     "elapsed_s": 0.141
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces.Read_Write_Resource": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces/Read_Write_Resource.thy",
+   "elapsed_s": 1.588,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 17,
+     "elapsed_s": 1.588
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces.Transfer_Raw_Physical_Memory": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces/Transfer_Raw_Physical_Memory.thy",
+   "elapsed_s": 3.127,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.302
+    },
+    {
+     "entity": "locale raw_tagged_physical_memory_transfer",
+     "name": "locale",
+     "line": 14,
+     "elapsed_s": 0.126
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 24,
+     "elapsed_s": 0.326
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 25,
+     "elapsed_s": 0.211
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 26,
+     "elapsed_s": 0.211
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 27,
+     "elapsed_s": 0.241
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 28,
+     "elapsed_s": 0.214
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 29,
+     "elapsed_s": 0.22
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 30,
+     "elapsed_s": 0.227
+    },
+    {
+     "entity": "interpretation Defs",
+     "name": "interpretation",
+     "line": 32,
+     "elapsed_s": 0.178
+    },
+    {
+     "entity": "lemma raw_tagged_physical_memory_lifted",
+     "name": "apply",
+     "line": 57,
+     "elapsed_s": 0.225
+    },
+    {
+     "entity": "lemma raw_tagged_physical_memory_lifted",
+     "name": "apply",
+     "line": 58,
+     "elapsed_s": 0.646
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces.Transfer_References": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces/Transfer_References.thy",
+   "elapsed_s": 1.801,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.292
+    },
+    {
+     "entity": "locale reference_transfer",
+     "name": "locale",
+     "line": 22,
+     "elapsed_s": 0.124
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 36,
+     "elapsed_s": 0.271
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 38,
+     "elapsed_s": 0.204
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 39,
+     "elapsed_s": 0.171
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 40,
+     "elapsed_s": 0.174
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 41,
+     "elapsed_s": 0.182
+    },
+    {
+     "entity": "definition",
+     "name": "definition",
+     "line": 42,
+     "elapsed_s": 0.202
+    },
+    {
+     "entity": "interpretation Defs",
+     "name": "interpretation",
+     "line": 44,
+     "elapsed_s": 0.181
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces_Core.Micro_Rust_Interfaces_Core": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces_Core/Micro_Rust_Interfaces_Core.thy",
+   "elapsed_s": 0.3,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.3
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces_Core.Raw_Physical_Memory": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces_Core/Raw_Physical_Memory.thy",
+   "elapsed_s": 0.715,
+   "commands": [
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 32,
+     "elapsed_s": 0.297
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 69,
+     "elapsed_s": 0.297
+    },
+    {
+     "entity": "locale raw_tagged_physical_memory",
+     "name": "locale",
+     "line": 73,
+     "elapsed_s": 0.121
+    }
+   ]
+  },
+  "Micro_Rust_Interfaces_Core.References": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Interfaces_Core/References.thy",
+   "elapsed_s": 0.998,
+   "commands": [
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 15,
+     "elapsed_s": 0.273
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 32,
+     "elapsed_s": 0.301
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 167,
+     "elapsed_s": 0.3
+    },
+    {
+     "entity": "lemma aentails_cancel_points_to_raw_with_typed",
+     "name": "by",
+     "line": 227,
+     "elapsed_s": 0.124
+    }
+   ]
+  },
+  "Micro_Rust_Runtime.Atomic_Resource": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Runtime/Atomic_Resource.thy",
+   "elapsed_s": 1.77,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 1.77
+    }
+   ]
+  },
+  "Micro_Rust_Runtime.Hybrid_References": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Runtime/Hybrid_References.thy",
+   "elapsed_s": 21.658,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 1.074
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 43,
+     "elapsed_s": 0.105
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 55,
+     "elapsed_s": 1.201
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 61,
+     "elapsed_s": 0.462
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 61,
+     "elapsed_s": 0.184
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 83,
+     "elapsed_s": 3.26
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 104,
+     "elapsed_s": 0.108
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 117,
+     "elapsed_s": 2.205
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 123,
+     "elapsed_s": 0.434
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 123,
+     "elapsed_s": 0.324
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 146,
+     "elapsed_s": 3.755
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 164,
+     "elapsed_s": 0.121
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 164,
+     "elapsed_s": 0.117
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 184,
+     "elapsed_s": 2.971
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 190,
+     "elapsed_s": 0.554
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 190,
+     "elapsed_s": 0.345
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 213,
+     "elapsed_s": 4.438
+    }
+   ]
+  },
+  "Micro_Rust_Runtime.Micro_Rust_Runtime": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Runtime/Micro_Rust_Runtime.thy",
+   "elapsed_s": 1.538,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 1.538
+    }
+   ]
+  },
+  "Micro_Rust_Runtime.Raw_Physical_Memory_Trie": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Runtime/Raw_Physical_Memory_Trie.thy",
+   "elapsed_s": 17.943,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.628
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 17,
+     "elapsed_s": 0.304
+    },
+    {
+     "entity": "lemma store_tagged_physical_address_core_is_local",
+     "name": "by",
+     "line": 310,
+     "elapsed_s": 2.856
+    },
+    {
+     "entity": "lemma store_physical_address_spec",
+     "name": "apply",
+     "line": 358,
+     "elapsed_s": 0.199
+    },
+    {
+     "entity": "lemma memset_tagged_block_pre_tagged",
+     "name": "by",
+     "line": 390,
+     "elapsed_s": 0.124
+    },
+    {
+     "entity": "lemma memset_tagged_block_pre_tagged",
+     "name": "by",
+     "line": 401,
+     "elapsed_s": 0.17
+    },
+    {
+     "entity": "lemma memset_tagged_block_pre_tagged",
+     "name": "by",
+     "line": 403,
+     "elapsed_s": 0.15
+    },
+    {
+     "entity": "lemma tagged_block_via_lookup",
+     "name": "by",
+     "line": 462,
+     "elapsed_s": 0.335
+    },
+    {
+     "entity": "lemma tagged_block_via_lookup",
+     "name": "by",
+     "line": 477,
+     "elapsed_s": 0.782
+    },
+    {
+     "entity": "lemma tagged_block_via_lookup",
+     "name": "by",
+     "line": 479,
+     "elapsed_s": 0.135
+    },
+    {
+     "entity": "lemma memset_phys_block_core_is_local",
+     "name": "by",
+     "line": 502,
+     "elapsed_s": 0.121
+    },
+    {
+     "entity": "lemma memset_phys_block_core_is_local",
+     "name": "by",
+     "line": 508,
+     "elapsed_s": 1.705
+    },
+    {
+     "entity": "lemma memset_phys_block_spec",
+     "name": "by",
+     "line": 543,
+     "elapsed_s": 0.72
+    },
+    {
+     "entity": "lemma memset_phys_block_spec",
+     "name": "by",
+     "line": 561,
+     "elapsed_s": 1.465
+    },
+    {
+     "entity": "lemma memset_phys_block_spec",
+     "name": "by",
+     "line": 564,
+     "elapsed_s": 0.646
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 568,
+     "elapsed_s": 0.305
+    },
+    {
+     "entity": "lemma tag_physical_page_core_is_local",
+     "name": "by",
+     "line": 667,
+     "elapsed_s": 1.488
+    },
+    {
+     "entity": "lemma tag_physical_page_spec",
+     "name": "apply",
+     "line": 725,
+     "elapsed_s": 0.634
+    },
+    {
+     "entity": "lemma tag_physical_page_spec",
+     "name": "by",
+     "line": 730,
+     "elapsed_s": 0.271
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_disjoint",
+     "name": "by",
+     "line": 784,
+     "elapsed_s": 0.144
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_disjoint",
+     "name": "by",
+     "line": 790,
+     "elapsed_s": 0.11
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_disjoint",
+     "name": "by",
+     "line": 800,
+     "elapsed_s": 0.227
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_disjoint",
+     "name": "apply",
+     "line": 802,
+     "elapsed_s": 0.274
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_disjoint",
+     "name": "by",
+     "line": 807,
+     "elapsed_s": 0.238
+    },
+    {
+     "entity": "lemma memset_phys_spec",
+     "name": "apply",
+     "line": 815,
+     "elapsed_s": 0.118
+    },
+    {
+     "entity": "lemma memset_phys_spec",
+     "name": "apply",
+     "line": 817,
+     "elapsed_s": 0.173
+    },
+    {
+     "entity": "lemma memset_phys_spec",
+     "name": "apply",
+     "line": 824,
+     "elapsed_s": 0.659
+    },
+    {
+     "entity": "lemma memset_phys_spec",
+     "name": "apply",
+     "line": 831,
+     "elapsed_s": 0.145
+    },
+    {
+     "entity": "lemma memset_phys_spec",
+     "name": "apply",
+     "line": 836,
+     "elapsed_s": 1.722
+    },
+    {
+     "entity": "lemma memset_phys_spec",
+     "name": "apply",
+     "line": 837,
+     "elapsed_s": 0.219
+    },
+    {
+     "entity": "corollary physical_memory_singleton_tagged_lookup",
+     "name": "corollary",
+     "line": 876,
+     "elapsed_s": 0.21
+    },
+    {
+     "entity": "lemma physical_memory_singleton_tagged_split_alt'",
+     "name": "by",
+     "line": 929,
+     "elapsed_s": 0.283
+    },
+    {
+     "entity": "interpretation Raw_Tagged_Physical_Memory_Trie",
+     "name": "interpretation",
+     "line": 1113,
+     "elapsed_s": 0.183
+    },
+    {
+     "entity": "lemma physical_memory_tag_all_bytes_correct",
+     "name": "by",
+     "line": 1178,
+     "elapsed_s": 0.2
+    }
+   ]
+  },
+  "Micro_Rust_Runtime.Raw_Physical_Memory_Trie_Core": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Runtime/Raw_Physical_Memory_Trie_Core.thy",
+   "elapsed_s": 110.479,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.566
+    },
+    {
+     "entity": "function range_to_aligned_blocks",
+     "name": "function",
+     "line": 108,
+     "elapsed_s": 0.191
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_page_range",
+     "name": "by",
+     "line": 155,
+     "elapsed_s": 0.111
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_page_range",
+     "name": "by",
+     "line": 169,
+     "elapsed_s": 0.62
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_page_range",
+     "name": "by",
+     "line": 171,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_bounds",
+     "name": "by",
+     "line": 205,
+     "elapsed_s": 0.108
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_bounds",
+     "name": "by",
+     "line": 209,
+     "elapsed_s": 0.358
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_bounds",
+     "name": "by",
+     "line": 212,
+     "elapsed_s": 0.558
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_bounds",
+     "name": "by",
+     "line": 214,
+     "elapsed_s": 0.573
+    },
+    {
+     "entity": "lemma range_to_aligned_blocks_bounds",
+     "name": "by",
+     "line": 217,
+     "elapsed_s": 0.265
+    },
+    {
+     "entity": "lemma bits_range_Suc",
+     "name": "by",
+     "line": 229,
+     "elapsed_s": 0.439
+    },
+    {
+     "entity": "lemma bits_range_split",
+     "name": "by",
+     "line": 238,
+     "elapsed_s": 0.368
+    },
+    {
+     "entity": "lemma block_range_to_bits_core",
+     "name": "apply",
+     "line": 256,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "lemma block_range_to_bits",
+     "name": "by",
+     "line": 266,
+     "elapsed_s": 0.105
+    },
+    {
+     "entity": "lemma block_range_split",
+     "name": "by",
+     "line": 291,
+     "elapsed_s": 0.414
+    },
+    {
+     "entity": "lemma block_range_split",
+     "name": "by",
+     "line": 293,
+     "elapsed_s": 2.712
+    },
+    {
+     "entity": "lemma block_range_split",
+     "name": "by",
+     "line": 304,
+     "elapsed_s": 0.516
+    },
+    {
+     "entity": "definition set_byte_state",
+     "name": "definition",
+     "line": 372,
+     "elapsed_s": 0.107
+    },
+    {
+     "entity": "datatype memory_contents",
+     "name": "datatype",
+     "line": 394,
+     "elapsed_s": 0.99
+    },
+    {
+     "entity": "fun mc_left",
+     "name": "fun",
+     "line": 398,
+     "elapsed_s": 0.124
+    },
+    {
+     "entity": "fun mc_height",
+     "name": "fun",
+     "line": 406,
+     "elapsed_s": 0.109
+    },
+    {
+     "entity": "fun lookup_memory_contents",
+     "name": "fun",
+     "line": 410,
+     "elapsed_s": 0.239
+    },
+    {
+     "entity": "fun mc_node",
+     "name": "fun",
+     "line": 419,
+     "elapsed_s": 0.119
+    },
+    {
+     "entity": "fun canonicalize_memory_contents",
+     "name": "fun",
+     "line": 432,
+     "elapsed_s": 0.103
+    },
+    {
+     "entity": "fun write_memory_contents",
+     "name": "fun",
+     "line": 437,
+     "elapsed_s": 0.271
+    },
+    {
+     "entity": "fun memset_memory_block",
+     "name": "fun",
+     "line": 445,
+     "elapsed_s": 0.511
+    },
+    {
+     "entity": "lemma memory_contents_node_constant",
+     "name": "by",
+     "line": 525,
+     "elapsed_s": 0.149
+    },
+    {
+     "entity": "lemma memory_contents_node_constant",
+     "name": "by",
+     "line": 527,
+     "elapsed_s": 0.468
+    },
+    {
+     "entity": "lemma memory_contents_unique",
+     "name": "by",
+     "line": 573,
+     "elapsed_s": 1.246
+    },
+    {
+     "entity": "lemma memset_memory_block_canonical",
+     "name": "apply",
+     "line": 595,
+     "elapsed_s": 0.104
+    },
+    {
+     "entity": "lemma memset_memory_block_height_le",
+     "name": "by",
+     "line": 634,
+     "elapsed_s": 1.365
+    },
+    {
+     "entity": "lemma memory_contents_memset_lookup",
+     "name": "apply",
+     "line": 688,
+     "elapsed_s": 0.544
+    },
+    {
+     "entity": "lemma memory_contents_memset_lookup",
+     "name": "apply",
+     "line": 690,
+     "elapsed_s": 2.413
+    },
+    {
+     "entity": "lemma memory_contents_memset_lookup_diff",
+     "name": "apply",
+     "line": 702,
+     "elapsed_s": 1.598
+    },
+    {
+     "entity": "lemma memory_contents_memset_lookup_diff",
+     "name": "apply",
+     "line": 704,
+     "elapsed_s": 2.222
+    },
+    {
+     "entity": "datatype memory_fault",
+     "name": "datatype",
+     "line": 711,
+     "elapsed_s": 0.742
+    },
+    {
+     "entity": "datatype 'tag",
+     "name": "datatype",
+     "line": 716,
+     "elapsed_s": 0.976
+    },
+    {
+     "entity": "fun mt_height",
+     "name": "fun",
+     "line": 721,
+     "elapsed_s": 0.131
+    },
+    {
+     "entity": "fun lookup_memory_tree",
+     "name": "fun",
+     "line": 726,
+     "elapsed_s": 0.345
+    },
+    {
+     "entity": "fun mt_node",
+     "name": "fun",
+     "line": 738,
+     "elapsed_s": 0.256
+    },
+    {
+     "entity": "fun canonicalize_memory_tree",
+     "name": "fun",
+     "line": 744,
+     "elapsed_s": 0.123
+    },
+    {
+     "entity": "lemma canonical_mt_nodeE",
+     "name": "by",
+     "line": 763,
+     "elapsed_s": 0.174
+    },
+    {
+     "entity": "lemma mt_node_height_le",
+     "name": "by",
+     "line": 771,
+     "elapsed_s": 0.126
+    },
+    {
+     "entity": "lemma mt_node_taggedE",
+     "name": "by",
+     "line": 803,
+     "elapsed_s": 0.107
+    },
+    {
+     "entity": "lemma lookup_memory_tree_mt_node",
+     "name": "by",
+     "line": 857,
+     "elapsed_s": 0.332
+    },
+    {
+     "entity": "lemma memory_tree_node_constant_aux",
+     "name": "by",
+     "line": 881,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "lemma memory_tree_constant_class",
+     "name": "by",
+     "line": 907,
+     "elapsed_s": 0.566
+    },
+    {
+     "entity": "lemma memory_tree_constant_class",
+     "name": "by",
+     "line": 909,
+     "elapsed_s": 0.183
+    },
+    {
+     "entity": "theorem memory_tree_unique",
+     "name": "by",
+     "line": 951,
+     "elapsed_s": 0.203
+    },
+    {
+     "entity": "theorem memory_tree_unique",
+     "name": "by",
+     "line": 956,
+     "elapsed_s": 0.245
+    },
+    {
+     "entity": "theorem memory_tree_unique",
+     "name": "by",
+     "line": 962,
+     "elapsed_s": 0.117
+    },
+    {
+     "entity": "fun tag_memory_contents",
+     "name": "fun",
+     "line": 979,
+     "elapsed_s": 0.552
+    },
+    {
+     "entity": "lemma tag_memory_contents_height_le",
+     "name": "by",
+     "line": 999,
+     "elapsed_s": 1.559
+    },
+    {
+     "entity": "lemma tag_memory_contents_result",
+     "name": "by",
+     "line": 1041,
+     "elapsed_s": 0.109
+    },
+    {
+     "entity": "fun memory_tree_tag_page",
+     "name": "fun",
+     "line": 1044,
+     "elapsed_s": 0.876
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_height_le",
+     "name": "apply",
+     "line": 1089,
+     "elapsed_s": 0.339
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_height_le",
+     "name": "apply",
+     "line": 1090,
+     "elapsed_s": 0.798
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_canonical",
+     "name": "apply",
+     "line": 1117,
+     "elapsed_s": 0.138
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_canonical",
+     "name": "by",
+     "line": 1120,
+     "elapsed_s": 1.011
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_succeeds1",
+     "name": "by",
+     "line": 1191,
+     "elapsed_s": 0.126
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_succeeds1",
+     "name": "by",
+     "line": 1209,
+     "elapsed_s": 0.155
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_fails",
+     "name": "by",
+     "line": 1217,
+     "elapsed_s": 0.125
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_result",
+     "name": "apply",
+     "line": 1239,
+     "elapsed_s": 1.65
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_result",
+     "name": "apply",
+     "line": 1240,
+     "elapsed_s": 7.736
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_succeeds2",
+     "name": "by",
+     "line": 1311,
+     "elapsed_s": 0.403
+    },
+    {
+     "entity": "lemma memory_tree_tag_page_succeeds",
+     "name": "by",
+     "line": 1338,
+     "elapsed_s": 0.332
+    },
+    {
+     "entity": "fun memset_memory_tree_block",
+     "name": "fun",
+     "line": 1356,
+     "elapsed_s": 0.872
+    },
+    {
+     "entity": "lemma memset_memory_tree_block_canonical",
+     "name": "apply",
+     "line": 1397,
+     "elapsed_s": 0.139
+    },
+    {
+     "entity": "lemma memset_memory_tree_block_canonical",
+     "name": "by",
+     "line": 1398,
+     "elapsed_s": 1.026
+    },
+    {
+     "entity": "definition memory_tree_write",
+     "name": "definition",
+     "line": 1401,
+     "elapsed_s": 0.102
+    },
+    {
+     "entity": "lemma memset_memory_tree_block_height_le",
+     "name": "apply",
+     "line": 1423,
+     "elapsed_s": 0.393
+    },
+    {
+     "entity": "lemma memset_memory_tree_block_height_le",
+     "name": "apply",
+     "line": 1424,
+     "elapsed_s": 0.783
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_lookup",
+     "name": "apply",
+     "line": 1453,
+     "elapsed_s": 1.284
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_lookup",
+     "name": "apply",
+     "line": 1454,
+     "elapsed_s": 9.042
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_lookup_diff",
+     "name": "by",
+     "line": 1471,
+     "elapsed_s": 0.135
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_lookup_diff",
+     "name": "apply",
+     "line": 1476,
+     "elapsed_s": 0.38
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_lookup_diff",
+     "name": "apply",
+     "line": 1477,
+     "elapsed_s": 25.42
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_lookup_class",
+     "name": "apply",
+     "line": 1497,
+     "elapsed_s": 0.28
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_lookup_class",
+     "name": "by",
+     "line": 1498,
+     "elapsed_s": 10.073
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_succeeds1",
+     "name": "by",
+     "line": 1545,
+     "elapsed_s": 0.513
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_succeeds1",
+     "name": "by",
+     "line": 1565,
+     "elapsed_s": 0.146
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_fails",
+     "name": "by",
+     "line": 1699,
+     "elapsed_s": 0.141
+    },
+    {
+     "entity": "lemma memory_tree_memset_block_fails",
+     "name": "by",
+     "line": 1708,
+     "elapsed_s": 0.266
+    },
+    {
+     "entity": "fun memory_tree_plus",
+     "name": "fun",
+     "line": 1716,
+     "elapsed_s": 0.293
+    },
+    {
+     "entity": "fun memory_tree_disjoint",
+     "name": "fun",
+     "line": 1732,
+     "elapsed_s": 0.326
+    },
+    {
+     "entity": "lemma memory_tree_plus_height_le",
+     "name": "by",
+     "line": 1815,
+     "elapsed_s": 0.688
+    },
+    {
+     "entity": "lemma mt_plus_disjoint1",
+     "name": "qed",
+     "line": 1886,
+     "elapsed_s": 0.114
+    },
+    {
+     "entity": "lemma mt_plus_disjoint1",
+     "name": "by",
+     "line": 1890,
+     "elapsed_s": 0.435
+    },
+    {
+     "entity": "lemma memory_tree_plus_assoc",
+     "name": "by",
+     "line": 1923,
+     "elapsed_s": 0.242
+    },
+    {
+     "entity": "lemma memory_tree_plus_assoc",
+     "name": "by",
+     "line": 1930,
+     "elapsed_s": 0.526
+    },
+    {
+     "entity": "lemma memory_tree_apart_plus2",
+     "name": "by",
+     "line": 1984,
+     "elapsed_s": 0.161
+    },
+    {
+     "entity": "lemma memory_tree_apart_plus2",
+     "name": "by",
+     "line": 1998,
+     "elapsed_s": 0.399
+    },
+    {
+     "entity": "lemma memory_tree_apart_plus2",
+     "name": "apply",
+     "line": 2008,
+     "elapsed_s": 0.174
+    },
+    {
+     "entity": "lemma memory_tree_apart_plus2",
+     "name": "by",
+     "line": 2013,
+     "elapsed_s": 0.329
+    },
+    {
+     "entity": "lemma memory_tree_apart_plus2",
+     "name": "apply",
+     "line": 2024,
+     "elapsed_s": 0.18
+    },
+    {
+     "entity": "lemma memory_tree_apart_plus2",
+     "name": "by",
+     "line": 2030,
+     "elapsed_s": 0.478
+    },
+    {
+     "entity": "lemma memory_tree_lookup_disjoint2_aux",
+     "name": "by",
+     "line": 2141,
+     "elapsed_s": 0.194
+    },
+    {
+     "entity": "lemma memory_tree_lookup_disjoint2_aux",
+     "name": "by",
+     "line": 2154,
+     "elapsed_s": 0.167
+    },
+    {
+     "entity": "lemma memory_tree_lookup_disjoint2_aux",
+     "name": "by",
+     "line": 2158,
+     "elapsed_s": 0.104
+    },
+    {
+     "entity": "lemma memory_tree_lookup_disjoint2_aux",
+     "name": "by",
+     "line": 2162,
+     "elapsed_s": 0.155
+    },
+    {
+     "entity": "theorem memory_tree_lookup_disjoint2",
+     "name": "by",
+     "line": 2200,
+     "elapsed_s": 0.309
+    },
+    {
+     "entity": "lemma memory_tree_plus_lookup",
+     "name": "apply",
+     "line": 2242,
+     "elapsed_s": 0.265
+    },
+    {
+     "entity": "lemma memory_tree_plus_lookup",
+     "name": "by",
+     "line": 2255,
+     "elapsed_s": 0.464
+    },
+    {
+     "entity": "lemma memory_tree_plus_lookup",
+     "name": "by",
+     "line": 2258,
+     "elapsed_s": 0.483
+    },
+    {
+     "entity": "lemma memory_tree_plus_lookup",
+     "name": "apply",
+     "line": 2262,
+     "elapsed_s": 0.184
+    },
+    {
+     "entity": "lemma memory_tree_plus_lookup",
+     "name": "by",
+     "line": 2268,
+     "elapsed_s": 0.22
+    },
+    {
+     "entity": "fun memory_contents_take_block",
+     "name": "fun",
+     "line": 2280,
+     "elapsed_s": 0.447
+    },
+    {
+     "entity": "fun memory_contents_delete_block",
+     "name": "fun",
+     "line": 2306,
+     "elapsed_s": 0.379
+    },
+    {
+     "entity": "lemma memory_tree_disjoint_mt_node3",
+     "name": "by",
+     "line": 2360,
+     "elapsed_s": 1.997
+    },
+    {
+     "entity": "lemma memory_contents_take_delete_disjoint",
+     "name": "by",
+     "line": 2428,
+     "elapsed_s": 0.503
+    },
+    {
+     "entity": "fun memory_tree_take_block",
+     "name": "fun",
+     "line": 2432,
+     "elapsed_s": 0.439
+    },
+    {
+     "entity": "fun memory_tree_delete_block",
+     "name": "fun",
+     "line": 2445,
+     "elapsed_s": 0.475
+    },
+    {
+     "entity": "lemma memory_tree_take_height_le",
+     "name": "qed",
+     "line": 2497,
+     "elapsed_s": 0.953
+    },
+    {
+     "entity": "lemma memory_tree_delete_height_le",
+     "name": "qed",
+     "line": 2507,
+     "elapsed_s": 1.08
+    },
+    {
+     "entity": "lemma memory_tree_take_delete_disjoint",
+     "name": "by",
+     "line": 2525,
+     "elapsed_s": 0.14
+    },
+    {
+     "entity": "lemma memory_tree_take_lookup",
+     "name": "by",
+     "line": 2587,
+     "elapsed_s": 0.294
+    },
+    {
+     "entity": "lemma memory_tree_delete_lookup",
+     "name": "by",
+     "line": 2601,
+     "elapsed_s": 0.174
+    },
+    {
+     "entity": "lemma memory_tree_delete_lookup",
+     "name": "by",
+     "line": 2603,
+     "elapsed_s": 0.367
+    },
+    {
+     "entity": "theorem physical_memory_ext",
+     "name": "by",
+     "line": 2657,
+     "elapsed_s": 0.304
+    },
+    {
+     "entity": null,
+     "name": "lift_definition",
+     "line": 2666,
+     "elapsed_s": 0.489
+    },
+    {
+     "entity": "lemma pred_sumI",
+     "name": "by",
+     "line": 2672,
+     "elapsed_s": 0.339
+    },
+    {
+     "entity": null,
+     "name": "lift_definition",
+     "line": 2675,
+     "elapsed_s": 0.111
+    },
+    {
+     "entity": "lemma pred_sumI",
+     "name": "by",
+     "line": 2682,
+     "elapsed_s": 0.34
+    },
+    {
+     "entity": "theorem physical_memory_disjoint_eq",
+     "name": "apply",
+     "line": 2780,
+     "elapsed_s": 0.243
+    },
+    {
+     "entity": "lemma physical_memory_tag_block_result",
+     "name": "by",
+     "line": 2813,
+     "elapsed_s": 0.144
+    },
+    {
+     "entity": "lemma physical_memory_memset_block_result",
+     "name": "apply",
+     "line": 2836,
+     "elapsed_s": 0.845
+    },
+    {
+     "entity": "lemma physical_memory_memset_block_result",
+     "name": "apply",
+     "line": 2840,
+     "elapsed_s": 0.119
+    },
+    {
+     "entity": "lemma word_align_down_transfer_lt",
+     "name": "by",
+     "line": 2849,
+     "elapsed_s": 0.11
+    },
+    {
+     "entity": "lemma physical_memory_memset_block_succeeds",
+     "name": "by",
+     "line": 2999,
+     "elapsed_s": 0.179
+    },
+    {
+     "entity": "lemma physical_memory_lookup_take_delete",
+     "name": "by",
+     "line": 3064,
+     "elapsed_s": 0.116
+    },
+    {
+     "entity": "lemma physical_memory_tag_page_local",
+     "name": "apply",
+     "line": 3108,
+     "elapsed_s": 0.12
+    },
+    {
+     "entity": "lemma physical_memory_tag_page_local",
+     "name": "by",
+     "line": 3121,
+     "elapsed_s": 0.19
+    },
+    {
+     "entity": "lemma physical_memory_tag_page_local",
+     "name": "by",
+     "line": 3130,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "lemma physical_memory_memset_block_local",
+     "name": "by",
+     "line": 3149,
+     "elapsed_s": 0.136
+    }
+   ]
+  },
+  "Micro_Rust_Runtime.Raw_Physical_Memory_Trie_Example": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Runtime/Raw_Physical_Memory_Trie_Example.thy",
+   "elapsed_s": 14.283,
+   "commands": [
+    {
+     "entity": null,
+     "name": "value",
+     "line": 33,
+     "elapsed_s": 0.56
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 37,
+     "elapsed_s": 1.902
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 41,
+     "elapsed_s": 1.908
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 45,
+     "elapsed_s": 1.95
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 55,
+     "elapsed_s": 2.296
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 67,
+     "elapsed_s": 2.094
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 68,
+     "elapsed_s": 2.108
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 69,
+     "elapsed_s": 0.736
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 70,
+     "elapsed_s": 0.729
+    }
+   ]
+  },
+  "Micro_Rust_Runtime.Raw_Physical_References": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Runtime/Raw_Physical_References.thy",
+   "elapsed_s": 9.555,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 2.997
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 20,
+     "elapsed_s": 0.108
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 34,
+     "elapsed_s": 2.078
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 40,
+     "elapsed_s": 0.366
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 40,
+     "elapsed_s": 0.319
+    },
+    {
+     "entity": null,
+     "name": "export_code",
+     "line": 61,
+     "elapsed_s": 3.687
+    }
+   ]
+  },
+  "Micro_Rust_Runtime.Runtime_Heap": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Runtime/Runtime_Heap.thy",
+   "elapsed_s": 2.259,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 1.361
+    },
+    {
+     "entity": null,
+     "name": "by",
+     "line": 123,
+     "elapsed_s": 0.204
+    },
+    {
+     "entity": null,
+     "name": "by",
+     "line": 128,
+     "elapsed_s": 0.193
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 168,
+     "elapsed_s": 0.348
+    },
+    {
+     "entity": null,
+     "name": "global_interpretation",
+     "line": 168,
+     "elapsed_s": 0.153
+    }
+   ]
+  },
+  "Micro_Rust_Runtime.Shareable_Resource": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Runtime/Shareable_Resource.thy",
+   "elapsed_s": 1.991,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 1.991
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.Micro_Rust_Std_Lib": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/Micro_Rust_Std_Lib.thy",
+   "elapsed_s": 0.344,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.344
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.StdLib_All": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/StdLib_All.thy",
+   "elapsed_s": 1.564,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 1.564
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.StdLib_Arithmetic": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/StdLib_Arithmetic.thy",
+   "elapsed_s": 0.626,
+   "commands": [
+    {
+     "entity": null,
+     "name": "lift_definition",
+     "line": 124,
+     "elapsed_s": 0.517
+    },
+    {
+     "entity": "lemma nonzerou64_new_spec",
+     "name": "by",
+     "line": 141,
+     "elapsed_s": 0.109
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.StdLib_Contracts": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/StdLib_Contracts.thy",
+   "elapsed_s": 0.906,
+   "commands": [
+    {
+     "entity": "lemma satisfies_function_contract_weaken",
+     "name": "apply",
+     "line": 52,
+     "elapsed_s": 0.121
+    },
+    {
+     "entity": "lemma satisfies_function_contract_weaken_wp_lambda",
+     "name": "by",
+     "line": 92,
+     "elapsed_s": 0.201
+    },
+    {
+     "entity": "lemma satisfies_function_contract_weaken_wp_lambda",
+     "name": "apply",
+     "line": 94,
+     "elapsed_s": 0.111
+    },
+    {
+     "entity": null,
+     "name": "lemmas",
+     "line": 123,
+     "elapsed_s": 0.473
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.StdLib_Logging": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/StdLib_Logging.thy",
+   "elapsed_s": 0.117,
+   "commands": [
+    {
+     "entity": null,
+     "name": "term",
+     "line": 79,
+     "elapsed_s": 0.117
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.StdLib_Option": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/StdLib_Option.thy",
+   "elapsed_s": 0.227,
+   "commands": [
+    {
+     "entity": "lemma option_as_mut_spec",
+     "name": "apply",
+     "line": 148,
+     "elapsed_s": 0.105
+    },
+    {
+     "entity": "fun generate_debug_option",
+     "name": "fun",
+     "line": 183,
+     "elapsed_s": 0.122
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.StdLib_Ordering": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/StdLib_Ordering.thy",
+   "elapsed_s": 0.63,
+   "commands": [
+    {
+     "entity": "datatype ordering",
+     "name": "datatype",
+     "line": 10,
+     "elapsed_s": 0.63
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.StdLib_References": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/StdLib_References.thy",
+   "elapsed_s": 1.226,
+   "commands": [
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 17,
+     "elapsed_s": 0.262
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 18,
+     "elapsed_s": 0.265
+    },
+    {
+     "entity": null,
+     "name": "ucincl_auto",
+     "line": 124,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 242,
+     "elapsed_s": 0.347
+    },
+    {
+     "entity": "lemma ref_test_spec",
+     "name": "apply",
+     "line": 326,
+     "elapsed_s": 0.215
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.StdLib_Result": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/StdLib_Result.thy",
+   "elapsed_s": 0.239,
+   "commands": [
+    {
+     "entity": "lemma result_or_spec",
+     "name": "by",
+     "line": 124,
+     "elapsed_s": 0.111
+    },
+    {
+     "entity": "fun generate_debug_result",
+     "name": "fun",
+     "line": 207,
+     "elapsed_s": 0.128
+    }
+   ]
+  },
+  "Micro_Rust_Std_Lib.StdLib_Slice": {
+   "file": "~/workspace/AutoCorrode/Micro_Rust_Std_Lib/StdLib_Slice.thy",
+   "elapsed_s": 1.319,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.459
+    },
+    {
+     "entity": "lemma list_index_range_spec",
+     "name": "by",
+     "line": 166,
+     "elapsed_s": 0.746
+    },
+    {
+     "entity": "fun generate_debug_range",
+     "name": "fun",
+     "line": 184,
+     "elapsed_s": 0.114
+    }
+   ]
+  },
+  "Misc.Array": {
+   "file": "~/workspace/AutoCorrode/Misc/Array.thy",
+   "elapsed_s": 0.755,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.298
+    },
+    {
+     "entity": "lemma array_to_list_extI",
+     "name": "by",
+     "line": 157,
+     "elapsed_s": 0.268
+    },
+    {
+     "entity": "lemma resize_array_nth",
+     "name": "by",
+     "line": 170,
+     "elapsed_s": 0.189
+    }
+   ]
+  },
+  "Misc.Debug_Logging": {
+   "file": "~/workspace/AutoCorrode/Misc/Debug_Logging.thy",
+   "elapsed_s": 0.591,
+   "commands": [
+    {
+     "entity": "datatype log_entry",
+     "name": "datatype",
+     "line": 16,
+     "elapsed_s": 0.488
+    },
+    {
+     "entity": "fun intersperse",
+     "name": "fun",
+     "line": 42,
+     "elapsed_s": 0.103
+    }
+   ]
+  },
+  "Misc.ListAdditional": {
+   "file": "~/workspace/AutoCorrode/Misc/ListAdditional.thy",
+   "elapsed_s": 2.562,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.411
+    },
+    {
+     "entity": "lemma nth_opt_spec2",
+     "name": "by",
+     "line": 81,
+     "elapsed_s": 0.283
+    },
+    {
+     "entity": "lemma nth_opt_spec2",
+     "name": "by",
+     "line": 87,
+     "elapsed_s": 0.188
+    },
+    {
+     "entity": "lemma nth_opt_None",
+     "name": "by",
+     "line": 93,
+     "elapsed_s": 0.16
+    },
+    {
+     "entity": "lemma list_map_concat_rev",
+     "name": "by",
+     "line": 243,
+     "elapsed_s": 0.195
+    },
+    {
+     "entity": "lemma list_map_concat_revE",
+     "name": "by",
+     "line": 249,
+     "elapsed_s": 0.121
+    },
+    {
+     "entity": "lemma natrange_split0",
+     "name": "by",
+     "line": 269,
+     "elapsed_s": 0.123
+    },
+    {
+     "entity": "lemma natrange_split1",
+     "name": "by",
+     "line": 288,
+     "elapsed_s": 0.666
+    },
+    {
+     "entity": "lemma least_in_natrange",
+     "name": "by",
+     "line": 309,
+     "elapsed_s": 0.158
+    },
+    {
+     "entity": "lemma nth_append_image_technical2",
+     "name": "apply",
+     "line": 482,
+     "elapsed_s": 0.114
+    },
+    {
+     "entity": "lemma sorted_wrt_on_Cons",
+     "name": "by",
+     "line": 543,
+     "elapsed_s": 0.143
+    }
+   ]
+  },
+  "Misc.Misc": {
+   "file": "~/workspace/AutoCorrode/Misc/Misc.thy",
+   "elapsed_s": 1.623,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 1.623
+    }
+   ]
+  },
+  "Misc.MultisetAdditional": {
+   "file": "~/workspace/AutoCorrode/Misc/MultisetAdditional.thy",
+   "elapsed_s": 2.552,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.392
+    },
+    {
+     "entity": "lemma inj_on_via_mset",
+     "name": "by",
+     "line": 59,
+     "elapsed_s": 0.234
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 102,
+     "elapsed_s": 0.196
+    },
+    {
+     "entity": "lemma mset_set_tagged",
+     "name": "by",
+     "line": 149,
+     "elapsed_s": 0.187
+    },
+    {
+     "entity": "lemma mset_map_sum_lift_single",
+     "name": "by",
+     "line": 212,
+     "elapsed_s": 0.303
+    },
+    {
+     "entity": "lemma set_product_sum",
+     "name": "by",
+     "line": 243,
+     "elapsed_s": 0.118
+    },
+    {
+     "entity": "lemma set_product_sum",
+     "name": "by",
+     "line": 262,
+     "elapsed_s": 0.28
+    },
+    {
+     "entity": "lemma set_product_sum",
+     "name": "by",
+     "line": 273,
+     "elapsed_s": 0.135
+    },
+    {
+     "entity": "lemma set_product_sum",
+     "name": "by",
+     "line": 278,
+     "elapsed_s": 0.205
+    },
+    {
+     "entity": "lemma set_product_sum",
+     "name": "by",
+     "line": 283,
+     "elapsed_s": 0.502
+    }
+   ]
+  },
+  "Misc.Remove_Enum_Discriminate_Elims": {
+   "file": "~/workspace/AutoCorrode/Misc/Remove_Enum_Discriminate_Elims.thy",
+   "elapsed_s": 1.955,
+   "commands": [
+    {
+     "entity": "datatype testenum",
+     "name": "datatype",
+     "line": 71,
+     "elapsed_s": 0.478
+    },
+    {
+     "entity": "datatype testenum",
+     "name": "datatype",
+     "line": 142,
+     "elapsed_s": 0.869
+    },
+    {
+     "entity": "datatype testenum",
+     "name": "datatype",
+     "line": 155,
+     "elapsed_s": 0.608
+    }
+   ]
+  },
+  "Misc.Result": {
+   "file": "~/workspace/AutoCorrode/Misc/Result.thy",
+   "elapsed_s": 0.866,
+   "commands": [
+    {
+     "entity": "datatype",
+     "name": "datatype",
+     "line": 9,
+     "elapsed_s": 0.866
+    }
+   ]
+  },
+  "Misc.Vector": {
+   "file": "~/workspace/AutoCorrode/Misc/Vector.thy",
+   "elapsed_s": 2.027,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.297
+    },
+    {
+     "entity": "lemma lookup1_take_list_fast",
+     "name": "by",
+     "line": 24,
+     "elapsed_s": 0.162
+    },
+    {
+     "entity": "lemma set_image_take_nth_elim",
+     "name": "by",
+     "line": 37,
+     "elapsed_s": 0.155
+    },
+    {
+     "entity": "lemma vector_push_nth",
+     "name": "by",
+     "line": 248,
+     "elapsed_s": 0.841
+    },
+    {
+     "entity": "lemma vector_push_nth",
+     "name": "by",
+     "line": 253,
+     "elapsed_s": 0.236
+    },
+    {
+     "entity": "lemma vector_push_nth",
+     "name": "by",
+     "line": 256,
+     "elapsed_s": 0.224
+    },
+    {
+     "entity": "lemma vector_over_nth_is_valid",
+     "name": "by",
+     "line": 344,
+     "elapsed_s": 0.112
+    }
+   ]
+  },
+  "Misc.WordAdditional": {
+   "file": "~/workspace/AutoCorrode/Misc/WordAdditional.thy",
+   "elapsed_s": 8.311,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.187
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 60,
+     "elapsed_s": 0.19
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 61,
+     "elapsed_s": 0.187
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 62,
+     "elapsed_s": 0.17
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 63,
+     "elapsed_s": 0.186
+    },
+    {
+     "entity": "lemma unat_lt_diff_len",
+     "name": "by",
+     "line": 179,
+     "elapsed_s": 0.238
+    },
+    {
+     "entity": "lemma image_word_of_nat_atLeastAtMost",
+     "name": "by",
+     "line": 370,
+     "elapsed_s": 0.106
+    },
+    {
+     "entity": "lemma image_unat_atLeastAtMost",
+     "name": "by",
+     "line": 392,
+     "elapsed_s": 0.238
+    },
+    {
+     "entity": "lemma lt_sub_left",
+     "name": "by",
+     "line": 412,
+     "elapsed_s": 0.122
+    },
+    {
+     "entity": "lemma",
+     "name": "by",
+     "line": 496,
+     "elapsed_s": 6.687
+    }
+   ]
+  },
+  "Misc.Word_Cast_Simplifier": {
+   "file": "~/workspace/AutoCorrode/Misc/Word_Cast_Simplifier.thy",
+   "elapsed_s": 0.627,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.171
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 16,
+     "elapsed_s": 0.145
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 40,
+     "elapsed_s": 0.166
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 65,
+     "elapsed_s": 0.145
+    }
+   ]
+  },
+  "Separation_Lenses.SLens": {
+   "file": "~/workspace/AutoCorrode/Separation_Lenses/SLens.thy",
+   "elapsed_s": 0.479,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.212
+    },
+    {
+     "entity": "lemma slens_decompose",
+     "name": "by",
+     "line": 185,
+     "elapsed_s": 0.141
+    },
+    {
+     "entity": "lemma slens_complement_additive",
+     "name": "by",
+     "line": 308,
+     "elapsed_s": 0.126
+    }
+   ]
+  },
+  "Separation_Lenses.SLens_Examples": {
+   "file": "~/workspace/AutoCorrode/Separation_Lenses/SLens_Examples.thy",
+   "elapsed_s": 1.118,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.684
+    },
+    {
+     "entity": "lemma slens_compose_valid",
+     "name": "by",
+     "line": 83,
+     "elapsed_s": 0.212
+    },
+    {
+     "entity": "lemma slens_compose_valid",
+     "name": "by",
+     "line": 93,
+     "elapsed_s": 0.222
+    }
+   ]
+  },
+  "Separation_Lenses.SLens_Pullback": {
+   "file": "~/workspace/AutoCorrode/Separation_Lenses/SLens_Pullback.thy",
+   "elapsed_s": 2.096,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.233
+    },
+    {
+     "entity": null,
+     "name": "lift_definition",
+     "line": 52,
+     "elapsed_s": 0.167
+    },
+    {
+     "entity": "lemma pull_back_striple_context_yield_handler",
+     "name": "lemma",
+     "line": 58,
+     "elapsed_s": 0.162
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 78,
+     "elapsed_s": 0.295
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 79,
+     "elapsed_s": 0.264
+    },
+    {
+     "entity": "lemma pull_back_assert_Union",
+     "name": "lemma",
+     "line": 86,
+     "elapsed_s": 0.168
+    },
+    {
+     "entity": "lemma pull_back_asepconj_multi",
+     "name": "by",
+     "line": 112,
+     "elapsed_s": 0.162
+    },
+    {
+     "entity": "lemma pull_back_local_relation_disj",
+     "name": "lemma",
+     "line": 266,
+     "elapsed_s": 0.162
+    },
+    {
+     "entity": "lemma pull_back_local_relation_disj",
+     "name": "assume",
+     "line": 272,
+     "elapsed_s": 0.163
+    },
+    {
+     "entity": "lemma pull_back_local_relation",
+     "name": "assume",
+     "line": 293,
+     "elapsed_s": 0.103
+    },
+    {
+     "entity": "lemma pull_back_local_relation",
+     "name": "by",
+     "line": 323,
+     "elapsed_s": 0.217
+    }
+   ]
+  },
+  "Separation_Lenses.Separation_Lenses": {
+   "file": "~/workspace/AutoCorrode/Separation_Lenses/Separation_Lenses.thy",
+   "elapsed_s": 1.776,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 1.776
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Basic_Case_Expression": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Basic_Case_Expression.thy",
+   "elapsed_s": 0.955,
+   "commands": [
+    {
+     "entity": "datatype test_type",
+     "name": "datatype",
+     "line": 355,
+     "elapsed_s": 0.955
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Bool_Type": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Bool_Type.thy",
+   "elapsed_s": 0.224,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.224
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Bool_Type_Lemmas": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Bool_Type_Lemmas.thy",
+   "elapsed_s": 1.874,
+   "commands": [
+    {
+     "entity": "lemma evaluate_two_armed_conditionalI",
+     "name": "by",
+     "line": 38,
+     "elapsed_s": 1.281
+    },
+    {
+     "entity": "lemma evaluate_two_armed_conditionalE",
+     "name": "by",
+     "line": 49,
+     "elapsed_s": 0.106
+    },
+    {
+     "entity": "lemma evaluate_assertE",
+     "name": "by",
+     "line": 107,
+     "elapsed_s": 0.306
+    },
+    {
+     "entity": "lemma evaluate_assertI",
+     "name": "by",
+     "line": 117,
+     "elapsed_s": 0.181
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Core_Expression": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Core_Expression.thy",
+   "elapsed_s": 7.406,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.354
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 18,
+     "elapsed_s": 0.16
+    },
+    {
+     "entity": "datatype 'abort",
+     "name": "datatype",
+     "line": 29,
+     "elapsed_s": 0.973
+    },
+    {
+     "entity": "datatype",
+     "name": "datatype",
+     "line": 50,
+     "elapsed_s": 2.978
+    },
+    {
+     "entity": "lemma expression_wf_base_is_wf",
+     "name": "by",
+     "line": 125,
+     "elapsed_s": 0.413
+    },
+    {
+     "entity": "function deep_evaluate_det",
+     "name": "function",
+     "line": 163,
+     "elapsed_s": 0.114
+    },
+    {
+     "entity": "datatype",
+     "name": "datatype",
+     "line": 192,
+     "elapsed_s": 0.996
+    },
+    {
+     "entity": "function deep_evaluates_nondet_basic",
+     "name": "function",
+     "line": 199,
+     "elapsed_s": 0.117
+    },
+    {
+     "entity": "function deep_evaluates_nondet",
+     "name": "function",
+     "line": 236,
+     "elapsed_s": 0.14
+    },
+    {
+     "entity": "datatype",
+     "name": "datatype",
+     "line": 298,
+     "elapsed_s": 0.925
+    },
+    {
+     "entity": "function bind",
+     "name": "function",
+     "line": 487,
+     "elapsed_s": 0.114
+    },
+    {
+     "entity": "fun list_sequence",
+     "name": "fun",
+     "line": 559,
+     "elapsed_s": 0.122
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Core_Expression_Lemmas": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Core_Expression_Lemmas.thy",
+   "elapsed_s": 8.644,
+   "commands": [
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 15,
+     "elapsed_s": 0.208
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 16,
+     "elapsed_s": 0.204
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 17,
+     "elapsed_s": 0.187
+    },
+    {
+     "entity": "lemma deep_evaluate_basicE",
+     "name": "apply",
+     "line": 90,
+     "elapsed_s": 1.095
+    },
+    {
+     "entity": "lemma deep_evaluate_basicI",
+     "name": "by",
+     "line": 110,
+     "elapsed_s": 0.556
+    },
+    {
+     "entity": "lemma deep_evaluates_nondet_basic_nonempty",
+     "name": "by",
+     "line": 149,
+     "elapsed_s": 0.111
+    },
+    {
+     "entity": "lemma deep_evaluates_nondet_basic",
+     "name": "by",
+     "line": 167,
+     "elapsed_s": 0.228
+    },
+    {
+     "entity": "lemma no_abort_deep_evaluates",
+     "name": "by",
+     "line": 182,
+     "elapsed_s": 0.726
+    },
+    {
+     "entity": "lemma deep_evaluate_basic_nondet_refine",
+     "name": "by",
+     "line": 209,
+     "elapsed_s": 0.214
+    },
+    {
+     "entity": "lemma deep_evaluate_det",
+     "name": "by",
+     "line": 224,
+     "elapsed_s": 0.28
+    },
+    {
+     "entity": "lemma deep_evaluate_det",
+     "name": "apply",
+     "line": 228,
+     "elapsed_s": 0.114
+    },
+    {
+     "entity": "lemma deep_evaluate_det",
+     "name": "apply",
+     "line": 230,
+     "elapsed_s": 0.133
+    },
+    {
+     "entity": "lemma evaluate_bindE",
+     "name": "by",
+     "line": 255,
+     "elapsed_s": 1.29
+    },
+    {
+     "entity": "lemma bind_literal_unit2",
+     "name": "by",
+     "line": 328,
+     "elapsed_s": 0.77
+    },
+    {
+     "entity": "lemma evaluate_bindlift1E",
+     "name": "by",
+     "line": 414,
+     "elapsed_s": 0.245
+    },
+    {
+     "entity": "lemma evaluate_bindlift1I",
+     "name": "apply",
+     "line": 426,
+     "elapsed_s": 0.522
+    },
+    {
+     "entity": "lemma evaluate_returnE",
+     "name": "by",
+     "line": 455,
+     "elapsed_s": 0.149
+    },
+    {
+     "entity": "lemma evaluate_returnI",
+     "name": "apply",
+     "line": 466,
+     "elapsed_s": 0.624
+    },
+    {
+     "entity": "lemma evaluate_call_function_bodyE",
+     "name": "by",
+     "line": 481,
+     "elapsed_s": 0.226
+    },
+    {
+     "entity": "lemma evaluate_call_function_bodyI",
+     "name": "by",
+     "line": 489,
+     "elapsed_s": 0.157
+    },
+    {
+     "entity": "lemma expression_no_return",
+     "name": "by",
+     "line": 542,
+     "elapsed_s": 0.395
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 586,
+     "elapsed_s": 0.21
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Core_Syntax": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Core_Syntax.thy",
+   "elapsed_s": 2.27,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.821
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1263,
+     "elapsed_s": 0.747
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1284,
+     "elapsed_s": 0.349
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1300,
+     "elapsed_s": 0.103
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1319,
+     "elapsed_s": 0.25
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Eval": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Eval.thy",
+   "elapsed_s": 12.067,
+   "commands": [
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 14,
+     "elapsed_s": 0.215
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 15,
+     "elapsed_s": 0.206
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 16,
+     "elapsed_s": 0.226
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 88,
+     "elapsed_s": 0.214
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 89,
+     "elapsed_s": 0.215
+    },
+    {
+     "entity": "lemma urust_eval_predicate_bind_success",
+     "name": "proof",
+     "line": 97,
+     "elapsed_s": 0.109
+    },
+    {
+     "entity": "lemma urust_eval_predicate_bind_success",
+     "name": "apply",
+     "line": 107,
+     "elapsed_s": 0.23
+    },
+    {
+     "entity": "lemma urust_eval_predicate_bind_return",
+     "name": "apply",
+     "line": 126,
+     "elapsed_s": 0.503
+    },
+    {
+     "entity": "lemma urust_eval_predicate_bind_abort",
+     "name": "apply",
+     "line": 145,
+     "elapsed_s": 1.123
+    },
+    {
+     "entity": "lemma urust_eval_predicate_bind_return_rel",
+     "name": "by",
+     "line": 166,
+     "elapsed_s": 0.481
+    },
+    {
+     "entity": "lemma urust_eval_predicate_bind_abort_rel",
+     "name": "by",
+     "line": 172,
+     "elapsed_s": 0.484
+    },
+    {
+     "entity": "lemma urust_eval_predicate_yield",
+     "name": "apply",
+     "line": 354,
+     "elapsed_s": 0.163
+    },
+    {
+     "entity": "lemma urust_eval_predicate_call_function_body_value",
+     "name": "apply",
+     "line": 398,
+     "elapsed_s": 0.449
+    },
+    {
+     "entity": "lemma urust_eval_predicate_call_function_body_return",
+     "name": "by",
+     "line": 416,
+     "elapsed_s": 1.485
+    },
+    {
+     "entity": "lemma urust_eval_predicate_call_function_body_abort",
+     "name": "by",
+     "line": 434,
+     "elapsed_s": 5.772
+    },
+    {
+     "entity": "corollary urust_eval_predicate_two_armed_conditional",
+     "name": "by",
+     "line": 536,
+     "elapsed_s": 0.192
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Global_Store": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Global_Store.thy",
+   "elapsed_s": 3.006,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.389
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 37,
+     "elapsed_s": 1.7
+    },
+    {
+     "entity": "datatype",
+     "name": "datatype",
+     "line": 41,
+     "elapsed_s": 0.712
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 134,
+     "elapsed_s": 0.205
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Micro_Rust": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Micro_Rust.thy",
+   "elapsed_s": 0.218,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.218
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Micro_Rust_Notations": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Micro_Rust_Notations.thy",
+   "elapsed_s": 0.959,
+   "commands": [
+    {
+     "entity": "datatype 'a",
+     "name": "datatype",
+     "line": 316,
+     "elapsed_s": 0.959
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Micro_Rust_Shallow_Embedding": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Micro_Rust_Shallow_Embedding.thy",
+   "elapsed_s": 2.458,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 1.586
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 58,
+     "elapsed_s": 0.218
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 59,
+     "elapsed_s": 0.207
+    },
+    {
+     "entity": null,
+     "name": "term",
+     "line": 242,
+     "elapsed_s": 0.106
+    },
+    {
+     "entity": null,
+     "name": "translations",
+     "line": 253,
+     "elapsed_s": 0.179
+    },
+    {
+     "entity": null,
+     "name": "ML",
+     "line": 959,
+     "elapsed_s": 0.162
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Micro_Rust_Shallow_Embedding_Tests": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Micro_Rust_Shallow_Embedding_Tests.thy",
+   "elapsed_s": 16.588,
+   "commands": [
+    {
+     "entity": "datatype struct_pattern_fixture",
+     "name": "datatype",
+     "line": 985,
+     "elapsed_s": 1.015
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 987,
+     "elapsed_s": 0.952
+    },
+    {
+     "entity": "record struct_pattern_rec",
+     "name": "record",
+     "line": 991,
+     "elapsed_s": 0.709
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1728,
+     "elapsed_s": 0.581
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1733,
+     "elapsed_s": 0.608
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1754,
+     "elapsed_s": 0.22
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1763,
+     "elapsed_s": 1.001
+    },
+    {
+     "entity": null,
+     "name": "micro_rust_record",
+     "line": 1766,
+     "elapsed_s": 0.166
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1818,
+     "elapsed_s": 1.059
+    },
+    {
+     "entity": null,
+     "name": "micro_rust_record",
+     "line": 1822,
+     "elapsed_s": 0.207
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1850,
+     "elapsed_s": 0.411
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1851,
+     "elapsed_s": 0.369
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1852,
+     "elapsed_s": 0.366
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1863,
+     "elapsed_s": 0.995
+    },
+    {
+     "entity": null,
+     "name": "micro_rust_record",
+     "line": 1866,
+     "elapsed_s": 0.139
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1876,
+     "elapsed_s": 0.373
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1877,
+     "elapsed_s": 0.374
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1884,
+     "elapsed_s": 0.926
+    },
+    {
+     "entity": null,
+     "name": "micro_rust_record",
+     "line": 1887,
+     "elapsed_s": 0.129
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1901,
+     "elapsed_s": 0.858
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1905,
+     "elapsed_s": 0.597
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1917,
+     "elapsed_s": 0.238
+    },
+    {
+     "entity": null,
+     "name": "value",
+     "line": 1920,
+     "elapsed_s": 0.433
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 1932,
+     "elapsed_s": 2.285
+    },
+    {
+     "entity": null,
+     "name": "micro_rust_record",
+     "line": 1935,
+     "elapsed_s": 0.327
+    },
+    {
+     "entity": "datatype test",
+     "name": "datatype",
+     "line": 2129,
+     "elapsed_s": 0.537
+    },
+    {
+     "entity": "datatype three_case",
+     "name": "datatype",
+     "line": 2191,
+     "elapsed_s": 0.713
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Prompts_And_Responses": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Prompts_And_Responses.thy",
+   "elapsed_s": 3.49,
+   "commands": [
+    {
+     "entity": "datatype log_priority",
+     "name": "datatype",
+     "line": 16,
+     "elapsed_s": 0.644
+    },
+    {
+     "entity": "datatype 'a",
+     "name": "datatype",
+     "line": 30,
+     "elapsed_s": 1.87
+    },
+    {
+     "entity": "datatype 'a",
+     "name": "datatype",
+     "line": 46,
+     "elapsed_s": 0.976
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Pullback": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Pullback.thy",
+   "elapsed_s": 6.476,
+   "commands": [
+    {
+     "entity": "function expression_pull_back",
+     "name": "function",
+     "line": 24,
+     "elapsed_s": 0.129
+    },
+    {
+     "entity": "lemma expression_pull_back_bind",
+     "name": "by",
+     "line": 76,
+     "elapsed_s": 3.926
+    },
+    {
+     "entity": "lemma canonical_pull_back_yield_handler_nondet_order_preserving",
+     "name": "by",
+     "line": 165,
+     "elapsed_s": 0.273
+    },
+    {
+     "entity": "lemma expression_pull_back_deep_evaluates",
+     "name": "by",
+     "line": 209,
+     "elapsed_s": 0.147
+    },
+    {
+     "entity": "lemma expression_pull_back_deep_evaluates",
+     "name": "by",
+     "line": 237,
+     "elapsed_s": 0.29
+    },
+    {
+     "entity": "lemma expression_pull_back_deep_evaluates",
+     "name": "by",
+     "line": 247,
+     "elapsed_s": 0.146
+    },
+    {
+     "entity": "lemma expression_pull_back_eval_action_abort",
+     "name": "by",
+     "line": 258,
+     "elapsed_s": 0.248
+    },
+    {
+     "entity": "lemma expression_pull_back_eval_action_value",
+     "name": "by",
+     "line": 271,
+     "elapsed_s": 0.33
+    },
+    {
+     "entity": "lemma expression_pull_back_eval_action_return",
+     "name": "by",
+     "line": 290,
+     "elapsed_s": 0.191
+    },
+    {
+     "entity": "lemma expression_pull_back_eval_action_abort_canonical",
+     "name": "by",
+     "line": 374,
+     "elapsed_s": 0.261
+    },
+    {
+     "entity": "lemma expression_pull_back_eval_action_value_canonical",
+     "name": "by",
+     "line": 387,
+     "elapsed_s": 0.282
+    },
+    {
+     "entity": "lemma expression_pull_back_eval_action_return_canonical",
+     "name": "by",
+     "line": 400,
+     "elapsed_s": 0.253
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Range_Type": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Range_Type.thy",
+   "elapsed_s": 0.649,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 12,
+     "elapsed_s": 0.649
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Result_Type": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Result_Type.thy",
+   "elapsed_s": 0.178,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.178
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Rust_Iterator": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Rust_Iterator.thy",
+   "elapsed_s": 2.992,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 1.949
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 13,
+     "elapsed_s": 0.872
+    },
+    {
+     "entity": "fun bounded_while",
+     "name": "fun",
+     "line": 126,
+     "elapsed_s": 0.171
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.SSA": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/SSA.thy",
+   "elapsed_s": 1.663,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.426
+    },
+    {
+     "entity": "lemma ssa_transform_funcall7",
+     "name": "by",
+     "line": 113,
+     "elapsed_s": 0.195
+    },
+    {
+     "entity": "lemma ssa_transform_funcall8",
+     "name": "by",
+     "line": 127,
+     "elapsed_s": 0.219
+    },
+    {
+     "entity": "lemma ssa_transform_funcall9",
+     "name": "by",
+     "line": 142,
+     "elapsed_s": 0.249
+    },
+    {
+     "entity": "lemma ssa_transform_funcall10",
+     "name": "by",
+     "line": 158,
+     "elapsed_s": 0.285
+    },
+    {
+     "entity": "lemma ssa_transform_two_armed_conditional",
+     "name": "by",
+     "line": 302,
+     "elapsed_s": 0.289
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Shallow_Micro_Rust": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Shallow_Micro_Rust.thy",
+   "elapsed_s": 0.812,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.812
+    }
+   ]
+  },
+  "Shallow_Micro_Rust.Tuple": {
+   "file": "~/workspace/AutoCorrode/Shallow_Micro_Rust/Tuple.thy",
+   "elapsed_s": 0.295,
+   "commands": [
+    {
+     "entity": "datatype tnil",
+     "name": "datatype",
+     "line": 11,
+     "elapsed_s": 0.295
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Adequacy": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Adequacy.thy",
+   "elapsed_s": 0.768,
+   "commands": [
+    {
+     "entity": "lemma sstriple_from_evaluation",
+     "name": "by",
+     "line": 141,
+     "elapsed_s": 0.768
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Apartness": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Apartness.thy",
+   "elapsed_s": 0.325,
+   "commands": [
+    {
+     "entity": "lemma disjoint_mapI",
+     "name": "by",
+     "line": 182,
+     "elapsed_s": 0.325
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Assertion_Language": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Assertion_Language.thy",
+   "elapsed_s": 12.481,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.579
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 14,
+     "elapsed_s": 0.2
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 15,
+     "elapsed_s": 0.198
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 16,
+     "elapsed_s": 0.195
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 18,
+     "elapsed_s": 0.181
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 19,
+     "elapsed_s": 0.206
+    },
+    {
+     "entity": "lemma ucincl_alt'",
+     "name": "by",
+     "line": 368,
+     "elapsed_s": 3.933
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 370,
+     "elapsed_s": 0.22
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 371,
+     "elapsed_s": 0.201
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 372,
+     "elapsed_s": 0.207
+    },
+    {
+     "entity": null,
+     "name": "method",
+     "line": 375,
+     "elapsed_s": 0.295
+    },
+    {
+     "entity": "lemma ucincl_asepconjR",
+     "name": "by",
+     "line": 513,
+     "elapsed_s": 0.115
+    },
+    {
+     "entity": "lemma ucincl_awand",
+     "name": "by",
+     "line": 783,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": "definition aentails_conditional_crule_strong",
+     "name": "definition",
+     "line": 862,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "lemma aentails_conditional_crule_strong_L0",
+     "name": "by",
+     "line": 977,
+     "elapsed_s": 0.465
+    },
+    {
+     "entity": "lemma aentails_conditional_crule_strong_R0",
+     "name": "by",
+     "line": 986,
+     "elapsed_s": 0.129
+    },
+    {
+     "entity": "lemma assert_strong_disj_upward_closure",
+     "name": "by",
+     "line": 1085,
+     "elapsed_s": 0.1
+    },
+    {
+     "entity": "lemma assert_strong_disj_upward_closure",
+     "name": "by",
+     "line": 1103,
+     "elapsed_s": 0.142
+    },
+    {
+     "entity": "lemma asepconj_pure_UNIV",
+     "name": "by",
+     "line": 1220,
+     "elapsed_s": 0.11
+    },
+    {
+     "entity": "lemma awand_int",
+     "name": "by",
+     "line": 1491,
+     "elapsed_s": 0.587
+    },
+    {
+     "entity": "lemma awand_pure_commute",
+     "name": "by",
+     "line": 1498,
+     "elapsed_s": 0.215
+    },
+    {
+     "entity": "lemma aentails_forward",
+     "name": "by",
+     "line": 1559,
+     "elapsed_s": 0.572
+    },
+    {
+     "entity": "lemma asepconj_multi'_ucincl",
+     "name": "by",
+     "line": 1602,
+     "elapsed_s": 0.194
+    },
+    {
+     "entity": "lemma is_sat_multiE",
+     "name": "by",
+     "line": 1665,
+     "elapsed_s": 0.181
+    },
+    {
+     "entity": "lemma aentails_cancel_multi_0R'",
+     "name": "by",
+     "line": 1696,
+     "elapsed_s": 1.438
+    },
+    {
+     "entity": "theorem asepconj_frame_rev_multi_single",
+     "name": "by",
+     "line": 1818,
+     "elapsed_s": 0.206
+    },
+    {
+     "entity": "lemma asepconj_union_singleton",
+     "name": "by",
+     "line": 1912,
+     "elapsed_s": 0.481
+    },
+    {
+     "entity": "lemma asepconj_multi_Union",
+     "name": "by",
+     "line": 2001,
+     "elapsed_s": 0.259
+    },
+    {
+     "entity": "lemma asepconj_multi_Union",
+     "name": "by",
+     "line": 2031,
+     "elapsed_s": 0.504
+    },
+    {
+     "entity": "lemma asepconj_multi_flatten",
+     "name": "by",
+     "line": 2144,
+     "elapsed_s": 0.13
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Assertion_Triple": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Assertion_Triple.thy",
+   "elapsed_s": 7.622,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.957
+    },
+    {
+     "entity": "lemma atriple_minimal'",
+     "name": "by",
+     "line": 168,
+     "elapsed_s": 0.189
+    },
+    {
+     "entity": "lemma atriple_minimal'",
+     "name": "by",
+     "line": 174,
+     "elapsed_s": 0.111
+    },
+    {
+     "entity": "lemma is_splitting_refine",
+     "name": "by",
+     "line": 218,
+     "elapsed_s": 1.171
+    },
+    {
+     "entity": "lemma atriple_frame_rev",
+     "name": "by",
+     "line": 252,
+     "elapsed_s": 0.178
+    },
+    {
+     "entity": "lemma atriple_frame_rev",
+     "name": "by",
+     "line": 263,
+     "elapsed_s": 0.277
+    },
+    {
+     "entity": "lemma atriple_frame_rev",
+     "name": "by",
+     "line": 266,
+     "elapsed_s": 0.306
+    },
+    {
+     "entity": "lemma atriple_frame_rev",
+     "name": "by",
+     "line": 269,
+     "elapsed_s": 0.351
+    },
+    {
+     "entity": "lemma atriple_frame_rev",
+     "name": "by",
+     "line": 271,
+     "elapsed_s": 0.486
+    },
+    {
+     "entity": "lemma atriple_frame_rev",
+     "name": "by",
+     "line": 274,
+     "elapsed_s": 0.284
+    },
+    {
+     "entity": "lemma atriple_frame_rev",
+     "name": "by",
+     "line": 278,
+     "elapsed_s": 0.525
+    },
+    {
+     "entity": "lemma atriple_frame_rev",
+     "name": "by",
+     "line": 289,
+     "elapsed_s": 0.239
+    },
+    {
+     "entity": "lemma atriple_frame_rev",
+     "name": "by",
+     "line": 292,
+     "elapsed_s": 0.156
+    },
+    {
+     "entity": "lemma atriple_local",
+     "name": "by",
+     "line": 322,
+     "elapsed_s": 0.327
+    },
+    {
+     "entity": "lemma atriple_local'",
+     "name": "have",
+     "line": 330,
+     "elapsed_s": 0.169
+    },
+    {
+     "entity": "lemma atriple_rel_upwards_closure",
+     "name": "by",
+     "line": 347,
+     "elapsed_s": 0.218
+    },
+    {
+     "entity": "lemma atriple_rel_hoist_pure",
+     "name": "by",
+     "line": 383,
+     "elapsed_s": 0.206
+    },
+    {
+     "entity": "lemma atriple_rel_bind",
+     "name": "by",
+     "line": 432,
+     "elapsed_s": 0.474
+    },
+    {
+     "entity": "lemma atriple_rel_bind",
+     "name": "by",
+     "line": 439,
+     "elapsed_s": 0.493
+    },
+    {
+     "entity": "lemma atriple_rel_bind",
+     "name": "by",
+     "line": 451,
+     "elapsed_s": 0.33
+    },
+    {
+     "entity": "lemma atriple_rel_bind",
+     "name": "by",
+     "line": 454,
+     "elapsed_s": 0.175
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Function_Contract": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Function_Contract.thy",
+   "elapsed_s": 0.972,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 14,
+     "elapsed_s": 0.972
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Locality": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Locality.thy",
+   "elapsed_s": 6.724,
+   "commands": [
+    {
+     "entity": "lemma is_localI",
+     "name": "by",
+     "line": 36,
+     "elapsed_s": 2.883
+    },
+    {
+     "entity": "lemma is_localD",
+     "name": "by",
+     "line": 45,
+     "elapsed_s": 0.828
+    },
+    {
+     "entity": "lemma is_localE",
+     "name": "by",
+     "line": 55,
+     "elapsed_s": 0.435
+    },
+    {
+     "entity": "lemma is_local_disj",
+     "name": "by",
+     "line": 62,
+     "elapsed_s": 0.174
+    },
+    {
+     "entity": "lemma is_local_frame",
+     "name": "by",
+     "line": 146,
+     "elapsed_s": 1.576
+    },
+    {
+     "entity": "lemma is_local_frame",
+     "name": "by",
+     "line": 151,
+     "elapsed_s": 0.545
+    },
+    {
+     "entity": "lemma is_local_UNIV",
+     "name": "by",
+     "line": 193,
+     "elapsed_s": 0.153
+    },
+    {
+     "entity": "lemma is_local_UNIV",
+     "name": "by",
+     "line": 199,
+     "elapsed_s": 0.13
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Permissioned_Heap": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Permissioned_Heap.thy",
+   "elapsed_s": 3.778,
+   "commands": [
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 15,
+     "elapsed_s": 0.452
+    },
+    {
+     "entity": "instance",
+     "name": "by",
+     "line": 319,
+     "elapsed_s": 0.227
+    },
+    {
+     "entity": null,
+     "name": "lift_definition",
+     "line": 358,
+     "elapsed_s": 0.228
+    },
+    {
+     "entity": null,
+     "name": "lift_definition",
+     "line": 453,
+     "elapsed_s": 0.609
+    },
+    {
+     "entity": "lemma alloc_mem_success_reverse",
+     "name": "by",
+     "line": 498,
+     "elapsed_s": 0.204
+    },
+    {
+     "entity": "lemma read_mem_write_mem_commute",
+     "name": "by",
+     "line": 562,
+     "elapsed_s": 0.113
+    },
+    {
+     "entity": "lemma write_mem_self_commute",
+     "name": "by",
+     "line": 578,
+     "elapsed_s": 0.404
+    },
+    {
+     "entity": "lemma write_mem_self_commute",
+     "name": "by",
+     "line": 582,
+     "elapsed_s": 0.165
+    },
+    {
+     "entity": "lemma write_mem_self_commute'",
+     "name": "by",
+     "line": 606,
+     "elapsed_s": 0.516
+    },
+    {
+     "entity": "lemma read_mem_local_action",
+     "name": "by",
+     "line": 648,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": "lemma alloc_mem_local_action2",
+     "name": "by",
+     "line": 711,
+     "elapsed_s": 0.538
+    },
+    {
+     "entity": "lemma mem_split_perm",
+     "name": "by",
+     "line": 831,
+     "elapsed_s": 0.185
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Precision": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Precision.thy",
+   "elapsed_s": 1.639,
+   "commands": [
+    {
+     "entity": "lemma precise_ucincl",
+     "name": "by",
+     "line": 68,
+     "elapsed_s": 0.132
+    },
+    {
+     "entity": "lemma asepconj_preserves_precise",
+     "name": "by",
+     "line": 103,
+     "elapsed_s": 0.154
+    },
+    {
+     "entity": "corollary has_minimal_splittings_Union",
+     "name": "by",
+     "line": 328,
+     "elapsed_s": 0.125
+    },
+    {
+     "entity": "lemma has_minimal_splittings_to_precise",
+     "name": "by",
+     "line": 391,
+     "elapsed_s": 0.116
+    },
+    {
+     "entity": "lemma is_minimal_asepconj",
+     "name": "by",
+     "line": 470,
+     "elapsed_s": 0.138
+    },
+    {
+     "entity": "lemma is_minimal_asepconj",
+     "name": "by",
+     "line": 479,
+     "elapsed_s": 0.188
+    },
+    {
+     "entity": "corollary minimal_states_asepconj_sub",
+     "name": "by",
+     "line": 501,
+     "elapsed_s": 0.159
+    },
+    {
+     "entity": "lemma assert_strong_disj_has_minimal_splittings",
+     "name": "by",
+     "line": 531,
+     "elapsed_s": 0.627
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Restriction": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Restriction.thy",
+   "elapsed_s": 2.919,
+   "commands": [
+    {
+     "entity": "lemma arestrict_outside",
+     "name": "by",
+     "line": 44,
+     "elapsed_s": 0.21
+    },
+    {
+     "entity": "lemma has_minimal_splittings_implies_intersection_stable",
+     "name": "by",
+     "line": 85,
+     "elapsed_s": 0.253
+    },
+    {
+     "entity": "lemma arestrict_restrict",
+     "name": "by",
+     "line": 102,
+     "elapsed_s": 0.189
+    },
+    {
+     "entity": "lemma arestrict_trans",
+     "name": "by",
+     "line": 180,
+     "elapsed_s": 1.379
+    },
+    {
+     "entity": "lemma awithout_alt",
+     "name": "by",
+     "line": 217,
+     "elapsed_s": 0.153
+    },
+    {
+     "entity": "lemma awithout_alt",
+     "name": "by",
+     "line": 228,
+     "elapsed_s": 0.1
+    },
+    {
+     "entity": "lemma dcincl_awithout",
+     "name": "by",
+     "line": 236,
+     "elapsed_s": 0.635
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Separation_Algebra": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Separation_Algebra.thy",
+   "elapsed_s": 0.721,
+   "commands": [
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 10,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 11,
+     "elapsed_s": 0.135
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 13,
+     "elapsed_s": 0.121
+    },
+    {
+     "entity": "class sepalg",
+     "name": "class",
+     "line": 33,
+     "elapsed_s": 0.124
+    },
+    {
+     "entity": "class cross_split_sepalg",
+     "name": "class",
+     "line": 234,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "instance",
+     "name": "by",
+     "line": 428,
+     "elapsed_s": 0.103
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Shallow_Separation_Logic": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Shallow_Separation_Logic.thy",
+   "elapsed_s": 0.984,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.984
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Share_Map": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Share_Map.thy",
+   "elapsed_s": 0.838,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.441
+    },
+    {
+     "entity": "datatype",
+     "name": "datatype",
+     "line": 36,
+     "elapsed_s": 0.397
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Shareable_Value": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Shareable_Value.thy",
+   "elapsed_s": 3.007,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.741
+    },
+    {
+     "entity": "datatype 'v",
+     "name": "datatype",
+     "line": 31,
+     "elapsed_s": 0.486
+    },
+    {
+     "entity": "fun plus_shareable_value",
+     "name": "fun",
+     "line": 74,
+     "elapsed_s": 0.123
+    },
+    {
+     "entity": "instance",
+     "name": "by",
+     "line": 97,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": "instance",
+     "name": "by",
+     "line": 104,
+     "elapsed_s": 0.123
+    },
+    {
+     "entity": "instance",
+     "name": "by",
+     "line": 152,
+     "elapsed_s": 0.1
+    },
+    {
+     "entity": "lemma shareable_map_plus_dom",
+     "name": "by",
+     "line": 377,
+     "elapsed_s": 0.747
+    },
+    {
+     "entity": "lemma shareable_map_plus_dom",
+     "name": "by",
+     "line": 384,
+     "elapsed_s": 0.55
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Tree_Shares": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Tree_Shares.thy",
+   "elapsed_s": 7.738,
+   "commands": [
+    {
+     "entity": "datatype tree",
+     "name": "datatype",
+     "line": 53,
+     "elapsed_s": 0.374
+    },
+    {
+     "entity": "fun node",
+     "name": "fun",
+     "line": 108,
+     "elapsed_s": 0.138
+    },
+    {
+     "entity": "fun tree_eq_test",
+     "name": "fun",
+     "line": 135,
+     "elapsed_s": 0.102
+    },
+    {
+     "entity": "fun less_eq_tree",
+     "name": "fun",
+     "line": 153,
+     "elapsed_s": 0.148
+    },
+    {
+     "entity": "instance",
+     "name": "by",
+     "line": 182,
+     "elapsed_s": 2.391
+    },
+    {
+     "entity": "fun tree_lub",
+     "name": "fun",
+     "line": 231,
+     "elapsed_s": 0.118
+    },
+    {
+     "entity": "fun tree_glb",
+     "name": "fun",
+     "line": 246,
+     "elapsed_s": 0.103
+    },
+    {
+     "entity": "lemma tree_equiv_canonical_equal",
+     "name": "by",
+     "line": 264,
+     "elapsed_s": 0.128
+    },
+    {
+     "entity": "lemma tree_lub_least",
+     "name": "by",
+     "line": 337,
+     "elapsed_s": 0.208
+    },
+    {
+     "entity": "lemma tree_glb_greatest",
+     "name": "by",
+     "line": 352,
+     "elapsed_s": 0.171
+    },
+    {
+     "entity": "lemma tree_relativ_NodeLeafE'",
+     "name": "by",
+     "line": 569,
+     "elapsed_s": 1.532
+    },
+    {
+     "entity": "lemma tree_eq_lub_node_l",
+     "name": "by",
+     "line": 588,
+     "elapsed_s": 0.114
+    },
+    {
+     "entity": "lemma tree_relativ_inj1_le",
+     "name": "by",
+     "line": 696,
+     "elapsed_s": 0.473
+    },
+    {
+     "entity": "lemma tree_relativ_inj1",
+     "name": "by",
+     "line": 703,
+     "elapsed_s": 0.102
+    },
+    {
+     "entity": "lemma tree_relativ_size",
+     "name": "by",
+     "line": 734,
+     "elapsed_s": 0.231
+    },
+    {
+     "entity": "lemma tree_relativ_size",
+     "name": "by",
+     "line": 739,
+     "elapsed_s": 1.405
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Triple": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Triple.thy",
+   "elapsed_s": 3.946,
+   "commands": [
+    {
+     "entity": "lemma urust_is_local_weaken",
+     "name": "by",
+     "line": 28,
+     "elapsed_s": 0.318
+    },
+    {
+     "entity": "lemma sstriple_striple",
+     "name": "by",
+     "line": 78,
+     "elapsed_s": 0.16
+    },
+    {
+     "entity": "lemma sstriple_striple",
+     "name": "by",
+     "line": 94,
+     "elapsed_s": 0.404
+    },
+    {
+     "entity": "lemma sstriple_consequence",
+     "name": "by",
+     "line": 180,
+     "elapsed_s": 1.72
+    },
+    {
+     "entity": "lemma sstriple_call_funliteral",
+     "name": "by",
+     "line": 434,
+     "elapsed_s": 0.479
+    },
+    {
+     "entity": "lemma sstriple_raw_for_loop_framed",
+     "name": "by",
+     "line": 587,
+     "elapsed_s": 0.211
+    },
+    {
+     "entity": "lemma sstriple_raw_for_loop_framed'",
+     "name": "by",
+     "line": 650,
+     "elapsed_s": 0.21
+    },
+    {
+     "entity": "lemma sstriple_bounded_while_framed",
+     "name": "by",
+     "line": 733,
+     "elapsed_s": 0.138
+    },
+    {
+     "entity": "lemma sstriple_gather_spec'",
+     "name": "by",
+     "line": 779,
+     "elapsed_s": 0.203
+    },
+    {
+     "entity": "lemma sstriple_gather_spec'",
+     "name": "by",
+     "line": 804,
+     "elapsed_s": 0.103
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Weak_Triple": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Weak_Triple.thy",
+   "elapsed_s": 13.846,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 4,
+     "elapsed_s": 0.802
+    },
+    {
+     "entity": null,
+     "name": "datatype_record",
+     "line": 16,
+     "elapsed_s": 2.133
+    },
+    {
+     "entity": "definition is_valid_striple_context",
+     "name": "definition",
+     "line": 22,
+     "elapsed_s": 0.165
+    },
+    {
+     "entity": "lemma striple_localI",
+     "name": "by",
+     "line": 129,
+     "elapsed_s": 0.851
+    },
+    {
+     "entity": "lemma striple_localI'",
+     "name": "by",
+     "line": 140,
+     "elapsed_s": 1.05
+    },
+    {
+     "entity": "lemma striple_yield_handler_refine",
+     "name": "have",
+     "line": 149,
+     "elapsed_s": 0.17
+    },
+    {
+     "entity": "lemma striple_yield_handler_refine",
+     "name": "by",
+     "line": 163,
+     "elapsed_s": 0.21
+    },
+    {
+     "entity": "datatype high_low_sa_component",
+     "name": "datatype",
+     "line": 187,
+     "elapsed_s": 0.604
+    },
+    {
+     "entity": "datatype high_low_sa",
+     "name": "datatype",
+     "line": 188,
+     "elapsed_s": 0.538
+    },
+    {
+     "entity": "instance",
+     "name": "by",
+     "line": 254,
+     "elapsed_s": 0.109
+    },
+    {
+     "entity": "instance",
+     "name": "by",
+     "line": 268,
+     "elapsed_s": 0.16
+    },
+    {
+     "entity": "lemma leak_high_is_not_local",
+     "name": "by",
+     "line": 355,
+     "elapsed_s": 0.115
+    },
+    {
+     "entity": "lemma striple_satisfiable",
+     "name": "by",
+     "line": 419,
+     "elapsed_s": 0.215
+    },
+    {
+     "entity": "lemma striple_existsI'",
+     "name": "by",
+     "line": 436,
+     "elapsed_s": 0.412
+    },
+    {
+     "entity": "theorem triple_frame_rule_asepconj_multi_singleI'",
+     "name": "by",
+     "line": 565,
+     "elapsed_s": 0.659
+    },
+    {
+     "entity": "corollary triple_frame_rule_no_return",
+     "name": "by",
+     "line": 635,
+     "elapsed_s": 0.156
+    },
+    {
+     "entity": "corollary triple_frame_rule_no_value",
+     "name": "by",
+     "line": 651,
+     "elapsed_s": 0.157
+    },
+    {
+     "entity": "lemma striple_bindI",
+     "name": "by",
+     "line": 692,
+     "elapsed_s": 0.146
+    },
+    {
+     "entity": "lemma striple_bindI",
+     "name": "by",
+     "line": 697,
+     "elapsed_s": 0.256
+    },
+    {
+     "entity": "lemma striple_bindI",
+     "name": "by",
+     "line": 702,
+     "elapsed_s": 0.265
+    },
+    {
+     "entity": "lemma aentails_after_all_asepconjs",
+     "name": "by",
+     "line": 720,
+     "elapsed_s": 0.928
+    },
+    {
+     "entity": "lemma striple_assert_val",
+     "name": "by",
+     "line": 753,
+     "elapsed_s": 0.339
+    },
+    {
+     "entity": "lemma striple_return_val",
+     "name": "by",
+     "line": 782,
+     "elapsed_s": 0.285
+    },
+    {
+     "entity": "lemma striple_return",
+     "name": "by",
+     "line": 792,
+     "elapsed_s": 0.299
+    },
+    {
+     "entity": "lemma striple_abort",
+     "name": "by",
+     "line": 816,
+     "elapsed_s": 0.304
+    },
+    {
+     "entity": "lemma striple_pause'",
+     "name": "apply",
+     "line": 836,
+     "elapsed_s": 0.228
+    },
+    {
+     "entity": "lemma striple_log'",
+     "name": "apply",
+     "line": 852,
+     "elapsed_s": 0.231
+    },
+    {
+     "entity": "lemma striple_two_armed_conditionalI",
+     "name": "apply",
+     "line": 870,
+     "elapsed_s": 0.171
+    },
+    {
+     "entity": "lemma striple_yield",
+     "name": "by",
+     "line": 880,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "lemma striple_call",
+     "name": "by",
+     "line": 916,
+     "elapsed_s": 0.128
+    },
+    {
+     "entity": "lemma striple_call_funliteral",
+     "name": "by",
+     "line": 938,
+     "elapsed_s": 0.839
+    },
+    {
+     "entity": "lemma striple_putI",
+     "name": "by",
+     "line": 952,
+     "elapsed_s": 0.572
+    },
+    {
+     "entity": "lemma striple_raw_for_loop_framed",
+     "name": "by",
+     "line": 1076,
+     "elapsed_s": 0.123
+    },
+    {
+     "entity": "lemma striple_raw_for_loop_framed'",
+     "name": "by",
+     "line": 1143,
+     "elapsed_s": 0.125
+    }
+   ]
+  },
+  "Shallow_Separation_Logic.Weakest_Precondition": {
+   "file": "~/workspace/AutoCorrode/Shallow_Separation_Logic/Weakest_Precondition.thy",
+   "elapsed_s": 2.097,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 5,
+     "elapsed_s": 0.283
+    },
+    {
+     "entity": "lemma wp_consequence",
+     "name": "by",
+     "line": 157,
+     "elapsed_s": 0.119
+    },
+    {
+     "entity": "lemma sstriple_straightline_to_wp",
+     "name": "by",
+     "line": 213,
+     "elapsed_s": 0.13
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 278,
+     "elapsed_s": 0.296
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 279,
+     "elapsed_s": 0.264
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 280,
+     "elapsed_s": 0.298
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 281,
+     "elapsed_s": 0.272
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 286,
+     "elapsed_s": 0.27
+    },
+    {
+     "entity": "lemma wp_fun",
+     "name": "lemma",
+     "line": 611,
+     "elapsed_s": 0.165
+    }
+   ]
+  },
+  "Word_Lib.Aligned": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Aligned.thy",
+   "elapsed_s": 1.634,
+   "commands": [
+    {
+     "entity": "lemma drop_minus_lem",
+     "name": "apply",
+     "line": 378,
+     "elapsed_s": 0.17
+    },
+    {
+     "entity": "lemma aligned_shiftr_mask_shiftl",
+     "name": "by",
+     "line": 585,
+     "elapsed_s": 0.164
+    },
+    {
+     "entity": "lemma is_aligned_neg_mask_eq_concrete",
+     "name": "by",
+     "line": 595,
+     "elapsed_s": 0.28
+    },
+    {
+     "entity": "lemma aligned_neq_into_no_overlap",
+     "name": "by",
+     "line": 681,
+     "elapsed_s": 0.185
+    },
+    {
+     "entity": "lemma is_aligned_add_or",
+     "name": "by",
+     "line": 737,
+     "elapsed_s": 0.182
+    },
+    {
+     "entity": "lemma aligned_mask_step",
+     "name": "by",
+     "line": 862,
+     "elapsed_s": 0.103
+    },
+    {
+     "entity": "lemma aligned_add_mask_lessD",
+     "name": "by",
+     "line": 915,
+     "elapsed_s": 0.141
+    },
+    {
+     "entity": "lemma is_aligned_diff",
+     "name": "by",
+     "line": 935,
+     "elapsed_s": 0.188
+    },
+    {
+     "entity": "lemma and_mask_plus",
+     "name": "by",
+     "line": 1067,
+     "elapsed_s": 0.221
+    }
+   ]
+  },
+  "Word_Lib.Bin_sign": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Bin_sign.thy",
+   "elapsed_s": 1.664,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 7,
+     "elapsed_s": 0.224
+    },
+    {
+     "entity": "lemma bl_sbin_sign_aux",
+     "name": "by",
+     "line": 114,
+     "elapsed_s": 1.44
+    }
+   ]
+  },
+  "Word_Lib.Bit_Comprehension": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Bit_Comprehension.thy",
+   "elapsed_s": 1.015,
+   "commands": [
+    {
+     "entity": "class bit_comprehension",
+     "name": "class",
+     "line": 14,
+     "elapsed_s": 1.015
+    }
+   ]
+  },
+  "Word_Lib.Bit_Comprehension_Int": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Bit_Comprehension_Int.thy",
+   "elapsed_s": 1.356,
+   "commands": [
+    {
+     "entity": "instance proof",
+     "name": "by",
+     "line": 35,
+     "elapsed_s": 0.14
+    },
+    {
+     "entity": "lemma set_bits_int_unfold'",
+     "name": "by",
+     "line": 77,
+     "elapsed_s": 0.299
+    },
+    {
+     "entity": "lemma set_bits_int_unfold'",
+     "name": "by",
+     "line": 97,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "lemma int_set_bits_unfold_BIT",
+     "name": "apply",
+     "line": 188,
+     "elapsed_s": 0.14
+    },
+    {
+     "entity": "lemma int_set_bits_unfold_BIT",
+     "name": "apply",
+     "line": 189,
+     "elapsed_s": 0.676
+    }
+   ]
+  },
+  "Word_Lib.Bit_Shifts_Infix_Syntax": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Bit_Shifts_Infix_Syntax.thy",
+   "elapsed_s": 0.915,
+   "commands": [
+    {
+     "entity": null,
+     "name": "context",
+     "line": 15,
+     "elapsed_s": 0.178
+    },
+    {
+     "entity": null,
+     "name": "context",
+     "line": 80,
+     "elapsed_s": 0.194
+    },
+    {
+     "entity": null,
+     "name": "context",
+     "line": 145,
+     "elapsed_s": 0.27
+    },
+    {
+     "entity": null,
+     "name": "context",
+     "line": 176,
+     "elapsed_s": 0.273
+    }
+   ]
+  },
+  "Word_Lib.Bitwise": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Bitwise.thy",
+   "elapsed_s": 2.364,
+   "commands": [
+    {
+     "entity": "lemma rbl_word_1",
+     "name": "by",
+     "line": 50,
+     "elapsed_s": 0.485
+    },
+    {
+     "entity": "lemma to_bl_plus_carry",
+     "name": "by",
+     "line": 78,
+     "elapsed_s": 0.287
+    },
+    {
+     "entity": "lemma takefill_le2",
+     "name": "by",
+     "line": 197,
+     "elapsed_s": 0.134
+    },
+    {
+     "entity": "lemma take_rbl_plus",
+     "name": "by",
+     "line": 201,
+     "elapsed_s": 0.233
+    },
+    {
+     "entity": "lemma rev_bl_order_simps",
+     "name": "by",
+     "line": 257,
+     "elapsed_s": 0.812
+    },
+    {
+     "entity": "lemma rev_bl_order_bl_to_bin",
+     "name": "apply",
+     "line": 276,
+     "elapsed_s": 0.271
+    },
+    {
+     "entity": "lemma word_sless_rbl",
+     "name": "by",
+     "line": 309,
+     "elapsed_s": 0.142
+    }
+   ]
+  },
+  "Word_Lib.Bitwise_Signed": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Bitwise_Signed.thy",
+   "elapsed_s": 0.183,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 9,
+     "elapsed_s": 0.183
+    }
+   ]
+  },
+  "Word_Lib.Boolean_Inequalities": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Boolean_Inequalities.thy",
+   "elapsed_s": 1.924,
+   "commands": [
+    {
+     "entity": null,
+     "name": "local_setup",
+     "line": 77,
+     "elapsed_s": 1.924
+    }
+   ]
+  },
+  "Word_Lib.Enumeration": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Enumeration.thy",
+   "elapsed_s": 0.103,
+   "commands": [
+    {
+     "entity": "class enumeration_both",
+     "name": "class",
+     "line": 166,
+     "elapsed_s": 0.103
+    }
+   ]
+  },
+  "Word_Lib.Enumeration_Word": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Enumeration_Word.thy",
+   "elapsed_s": 3.518,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 11,
+     "elapsed_s": 0.34
+    },
+    {
+     "entity": "lemma upto_enum_step_red",
+     "name": "by",
+     "line": 94,
+     "elapsed_s": 0.108
+    },
+    {
+     "entity": "lemma upto_enum_word",
+     "name": "by",
+     "line": 101,
+     "elapsed_s": 0.317
+    },
+    {
+     "entity": "lemma word_upto_Cons_eq",
+     "name": "by",
+     "line": 106,
+     "elapsed_s": 0.617
+    },
+    {
+     "entity": "lemma upto_enum_set_conv",
+     "name": "by",
+     "line": 137,
+     "elapsed_s": 0.135
+    },
+    {
+     "entity": "lemma upto_enum_set_conv",
+     "name": "by",
+     "line": 139,
+     "elapsed_s": 2.001
+    }
+   ]
+  },
+  "Word_Lib.Generic_set_bit": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Generic_set_bit.thy",
+   "elapsed_s": 0.183,
+   "commands": [
+    {
+     "entity": "lemma word_set_nth_iff",
+     "name": "by",
+     "line": 226,
+     "elapsed_s": 0.183
+    }
+   ]
+  },
+  "Word_Lib.Least_significant_bit": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Least_significant_bit.thy",
+   "elapsed_s": 0.16,
+   "commands": [
+    {
+     "entity": null,
+     "name": "context",
+     "line": 16,
+     "elapsed_s": 0.16
+    }
+   ]
+  },
+  "Word_Lib.Many_More": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Many_More.thy",
+   "elapsed_s": 1.074,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 7,
+     "elapsed_s": 0.179
+    },
+    {
+     "entity": "lemma ran_upd",
+     "name": "by",
+     "line": 286,
+     "elapsed_s": 0.428
+    },
+    {
+     "entity": "lemma axxbyy",
+     "name": "by",
+     "line": 488,
+     "elapsed_s": 0.467
+    }
+   ]
+  },
+  "Word_Lib.More_Arithmetic": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/More_Arithmetic.thy",
+   "elapsed_s": 1.041,
+   "commands": [
+    {
+     "entity": "lemma power_2_mult_step_le",
+     "name": "by",
+     "line": 104,
+     "elapsed_s": 0.726
+    },
+    {
+     "entity": "lemma nat_mult_power_less_eq",
+     "name": "by",
+     "line": 111,
+     "elapsed_s": 0.315
+    }
+   ]
+  },
+  "Word_Lib.More_Bit_Ring": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/More_Bit_Ring.thy",
+   "elapsed_s": 1.061,
+   "commands": [
+    {
+     "entity": null,
+     "name": "context",
+     "line": 14,
+     "elapsed_s": 0.173
+    },
+    {
+     "entity": null,
+     "name": "context",
+     "line": 28,
+     "elapsed_s": 0.252
+    },
+    {
+     "entity": "lemma plus_eq_and_or",
+     "name": "by",
+     "line": 83,
+     "elapsed_s": 0.636
+    }
+   ]
+  },
+  "Word_Lib.More_Divides": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/More_Divides.thy",
+   "elapsed_s": 0.636,
+   "commands": [
+    {
+     "entity": "lemma mod_lemma",
+     "name": "by",
+     "line": 224,
+     "elapsed_s": 0.213
+    },
+    {
+     "entity": "lemma int_div_sub_1",
+     "name": "by",
+     "line": 281,
+     "elapsed_s": 0.187
+    },
+    {
+     "entity": "lemma int_div_sub_1",
+     "name": "by",
+     "line": 285,
+     "elapsed_s": 0.236
+    }
+   ]
+  },
+  "Word_Lib.More_Int": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/More_Int.thy",
+   "elapsed_s": 0.452,
+   "commands": [
+    {
+     "entity": "lemma bintr_cat",
+     "name": "by",
+     "line": 53,
+     "elapsed_s": 0.149
+    },
+    {
+     "entity": "lemma sbintrunc_If",
+     "name": "apply",
+     "line": 833,
+     "elapsed_s": 0.121
+    },
+    {
+     "entity": "lemma sbintrunc_If",
+     "name": "by",
+     "line": 834,
+     "elapsed_s": 0.182
+    }
+   ]
+  },
+  "Word_Lib.More_Word": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/More_Word.thy",
+   "elapsed_s": 9.761,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 9,
+     "elapsed_s": 0.316
+    },
+    {
+     "entity": "lemma sofl_test",
+     "name": "by",
+     "line": 34,
+     "elapsed_s": 0.242
+    },
+    {
+     "entity": "lemma word_plus_mono_left",
+     "name": "by",
+     "line": 191,
+     "elapsed_s": 0.253
+    },
+    {
+     "entity": "lemma word_add_less_mono1",
+     "name": "by",
+     "line": 387,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "lemma word_sub_mono",
+     "name": "by",
+     "line": 458,
+     "elapsed_s": 1.246
+    },
+    {
+     "entity": "lemma word_plus_mcs_3",
+     "name": "by",
+     "line": 503,
+     "elapsed_s": 0.222
+    },
+    {
+     "entity": "lemma alignUp_div_helper",
+     "name": "by",
+     "line": 550,
+     "elapsed_s": 0.109
+    },
+    {
+     "entity": "lemma word_2p_mult_inc",
+     "name": "by",
+     "line": 632,
+     "elapsed_s": 0.167
+    },
+    {
+     "entity": "lemma multiple_mask_trivia",
+     "name": "by",
+     "line": 702,
+     "elapsed_s": 0.11
+    },
+    {
+     "entity": "lemma int_eq_sint",
+     "name": "by",
+     "line": 730,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "lemma of_nat_less_two_pow_div_set",
+     "name": "by",
+     "line": 785,
+     "elapsed_s": 0.732
+    },
+    {
+     "entity": "lemma word_power_less_diff",
+     "name": "by",
+     "line": 814,
+     "elapsed_s": 0.805
+    },
+    {
+     "entity": "lemma ucast_less_ucast",
+     "name": "by",
+     "line": 901,
+     "elapsed_s": 0.5
+    },
+    {
+     "entity": "lemma word_count_from_top",
+     "name": "by",
+     "line": 1007,
+     "elapsed_s": 0.168
+    },
+    {
+     "entity": "lemma word_must_wrap",
+     "name": "by",
+     "line": 1015,
+     "elapsed_s": 0.108
+    },
+    {
+     "entity": "lemma range_subset_card",
+     "name": "by",
+     "line": 1019,
+     "elapsed_s": 0.111
+    },
+    {
+     "entity": "lemma less_1_simp",
+     "name": "by",
+     "line": 1023,
+     "elapsed_s": 0.107
+    },
+    {
+     "entity": "lemma word_range_minus_1",
+     "name": "by",
+     "line": 1039,
+     "elapsed_s": 0.104
+    },
+    {
+     "entity": "lemma word_plus_strict_mono_right",
+     "name": "by",
+     "line": 1060,
+     "elapsed_s": 0.224
+    },
+    {
+     "entity": "lemma ucast_ucast_add",
+     "name": "by",
+     "line": 1160,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": "lemma ucast_sub_ucast",
+     "name": "by",
+     "line": 1191,
+     "elapsed_s": 0.605
+    },
+    {
+     "entity": "lemma word_le_plus_1",
+     "name": "by",
+     "line": 1201,
+     "elapsed_s": 0.385
+    },
+    {
+     "entity": "lemma nth_slice",
+     "name": "by",
+     "line": 1418,
+     "elapsed_s": 0.161
+    },
+    {
+     "entity": "lemma div_power_helper",
+     "name": "by",
+     "line": 1698,
+     "elapsed_s": 0.103
+    },
+    {
+     "entity": "lemma mult_pow2_inj",
+     "name": "by",
+     "line": 1901,
+     "elapsed_s": 0.165
+    },
+    {
+     "entity": "lemma word_of_int_bin_cat_eq_iff",
+     "name": "by",
+     "line": 1922,
+     "elapsed_s": 1.66
+    },
+    {
+     "entity": "lemma signed_arith_eq_checks_to_ord",
+     "name": "by",
+     "line": 1996,
+     "elapsed_s": 0.306
+    },
+    {
+     "entity": "lemma signed_arith_eq_checks_to_ord",
+     "name": "by",
+     "line": 2000,
+     "elapsed_s": 0.221
+    },
+    {
+     "entity": "lemma signed_mult_eq_checks_double_size",
+     "name": "by",
+     "line": 2013,
+     "elapsed_s": 0.12
+    },
+    {
+     "entity": "lemma signed_mult_eq_checks_double_size",
+     "name": "by",
+     "line": 2022,
+     "elapsed_s": 0.172
+    }
+   ]
+  },
+  "Word_Lib.More_Word_Operations": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/More_Word_Operations.thy",
+   "elapsed_s": 18.702,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 9,
+     "elapsed_s": 1.566
+    },
+    {
+     "entity": "lemma word_ctz_unfold'",
+     "name": "by",
+     "line": 64,
+     "elapsed_s": 0.178
+    },
+    {
+     "entity": "lemma word_ctz_less",
+     "name": "by",
+     "line": 92,
+     "elapsed_s": 0.185
+    },
+    {
+     "entity": "lemma alignUp_idem",
+     "name": "by",
+     "line": 275,
+     "elapsed_s": 0.847
+    },
+    {
+     "entity": "lemma alignUp_not_aligned_eq",
+     "name": "by",
+     "line": 296,
+     "elapsed_s": 0.186
+    },
+    {
+     "entity": "lemma alignUp_not_aligned_eq",
+     "name": "by",
+     "line": 300,
+     "elapsed_s": 0.275
+    },
+    {
+     "entity": "lemma alignUp_is_aligned_nz",
+     "name": "by",
+     "line": 415,
+     "elapsed_s": 0.104
+    },
+    {
+     "entity": "lemma alignUp_distance",
+     "name": "by",
+     "line": 469,
+     "elapsed_s": 0.529
+    },
+    {
+     "entity": "lemma sign_extended_iff_sign_extend",
+     "name": "by",
+     "line": 546,
+     "elapsed_s": 2.858
+    },
+    {
+     "entity": "lemma lshift_limited_and",
+     "name": "using",
+     "line": 608,
+     "elapsed_s": 0.106
+    },
+    {
+     "entity": "lemma mask_range_to_bl'",
+     "name": "by",
+     "line": 766,
+     "elapsed_s": 1.988
+    },
+    {
+     "entity": "lemma mask_range_to_bl",
+     "name": "by",
+     "line": 787,
+     "elapsed_s": 2.379
+    },
+    {
+     "entity": "lemma aligned_mask_range_cases",
+     "name": "by",
+     "line": 795,
+     "elapsed_s": 2.462
+    },
+    {
+     "entity": "lemma aligned_mask_ranges_disjoint2",
+     "name": "by",
+     "line": 867,
+     "elapsed_s": 2.037
+    },
+    {
+     "entity": "lemma word_clz_sint_upper",
+     "name": "by",
+     "line": 879,
+     "elapsed_s": 1.984
+    },
+    {
+     "entity": "lemma sint_ctz",
+     "name": "by",
+     "line": 923,
+     "elapsed_s": 0.179
+    },
+    {
+     "entity": "lemma aligned_mask_diff",
+     "name": "by",
+     "line": 936,
+     "elapsed_s": 0.256
+    },
+    {
+     "entity": "lemma word_less_bitD",
+     "name": "by",
+     "line": 1011,
+     "elapsed_s": 0.427
+    },
+    {
+     "entity": "lemma word_less_bit_eq",
+     "name": "by",
+     "line": 1034,
+     "elapsed_s": 0.156
+    }
+   ]
+  },
+  "Word_Lib.Most_significant_bit": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Most_significant_bit.thy",
+   "elapsed_s": 0.178,
+   "commands": [
+    {
+     "entity": "lemma word_sle_msb_le",
+     "name": "by",
+     "line": 146,
+     "elapsed_s": 0.178
+    }
+   ]
+  },
+  "Word_Lib.Reversed_Bit_Lists": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Reversed_Bit_Lists.thy",
+   "elapsed_s": 13.937,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 11,
+     "elapsed_s": 1.143
+    },
+    {
+     "entity": "lemma tf_rev",
+     "name": "by",
+     "line": 111,
+     "elapsed_s": 2.815
+    },
+    {
+     "entity": "lemma nth_rotater",
+     "name": "by",
+     "line": 208,
+     "elapsed_s": 0.265
+    },
+    {
+     "entity": "lemma nth_rotater1",
+     "name": "by",
+     "line": 212,
+     "elapsed_s": 0.164
+    },
+    {
+     "entity": "lemma but_last_zip",
+     "name": "by",
+     "line": 276,
+     "elapsed_s": 0.105
+    },
+    {
+     "entity": "lemma but_last_map2",
+     "name": "by",
+     "line": 289,
+     "elapsed_s": 0.118
+    },
+    {
+     "entity": "lemma rotater1_zip",
+     "name": "by",
+     "line": 295,
+     "elapsed_s": 0.856
+    },
+    {
+     "entity": "lemma bin_nth_of_bl_aux",
+     "name": "by",
+     "line": 336,
+     "elapsed_s": 0.208
+    },
+    {
+     "entity": "lemma bl_to_bin_aux_cat",
+     "name": "by",
+     "line": 660,
+     "elapsed_s": 0.12
+    },
+    {
+     "entity": "lemma rbl_pred",
+     "name": "by",
+     "line": 803,
+     "elapsed_s": 0.155
+    },
+    {
+     "entity": "lemma rbl_add",
+     "name": "apply",
+     "line": 836,
+     "elapsed_s": 0.162
+    },
+    {
+     "entity": "lemma rbl_add_long",
+     "name": "by",
+     "line": 844,
+     "elapsed_s": 0.522
+    },
+    {
+     "entity": "lemma rbl_mult_gt1",
+     "name": "by",
+     "line": 850,
+     "elapsed_s": 0.428
+    },
+    {
+     "entity": "lemma rbl_mult",
+     "name": "apply",
+     "line": 875,
+     "elapsed_s": 0.127
+    },
+    {
+     "entity": "lemma bin_cat_foldl_lem",
+     "name": "by",
+     "line": 893,
+     "elapsed_s": 1.433
+    },
+    {
+     "entity": "lemma bl_xor_aux_bin",
+     "name": "by",
+     "line": 913,
+     "elapsed_s": 0.205
+    },
+    {
+     "entity": "lemma bshiftr1_eq",
+     "name": "by",
+     "line": 1039,
+     "elapsed_s": 0.108
+    },
+    {
+     "entity": "lemma bshiftr1_numeral",
+     "name": "by",
+     "line": 1347,
+     "elapsed_s": 0.101
+    },
+    {
+     "entity": "lemma bl_sshiftr1",
+     "name": "by",
+     "line": 1413,
+     "elapsed_s": 0.118
+    },
+    {
+     "entity": "lemma take_sshiftr'",
+     "name": "apply",
+     "line": 1439,
+     "elapsed_s": 0.229
+    },
+    {
+     "entity": "lemma shiftr1_bl_of",
+     "name": "by",
+     "line": 1465,
+     "elapsed_s": 0.128
+    },
+    {
+     "entity": "lemma shiftr_bl_of",
+     "name": "by",
+     "line": 1470,
+     "elapsed_s": 0.201
+    },
+    {
+     "entity": "lemma aligned_bl_add_size",
+     "name": "by",
+     "line": 1489,
+     "elapsed_s": 0.226
+    },
+    {
+     "entity": "lemma slice1_eq_of_bl",
+     "name": "by",
+     "line": 1518,
+     "elapsed_s": 0.166
+    },
+    {
+     "entity": "lemma slice1_up_alt'",
+     "name": "by",
+     "line": 1550,
+     "elapsed_s": 0.193
+    },
+    {
+     "entity": "lemma bl_word_roti_dt'",
+     "name": "by",
+     "line": 1714,
+     "elapsed_s": 0.798
+    },
+    {
+     "entity": "lemma to_bl_2p",
+     "name": "by",
+     "line": 1934,
+     "elapsed_s": 0.131
+    },
+    {
+     "entity": "lemma xor_2p_to_bl",
+     "name": "by",
+     "line": 1947,
+     "elapsed_s": 0.837
+    },
+    {
+     "entity": "lemma of_bl_mult_and_not_mask_eq",
+     "name": "by",
+     "line": 1985,
+     "elapsed_s": 0.723
+    },
+    {
+     "entity": "lemma bin_to_bl_of_bl_eq",
+     "name": "by",
+     "line": 2000,
+     "elapsed_s": 0.827
+    },
+    {
+     "entity": "lemma bin_to_bl_of_bl_eq",
+     "name": "by",
+     "line": 2003,
+     "elapsed_s": 0.151
+    },
+    {
+     "entity": "lemma sshiftr_bl_of",
+     "name": "by",
+     "line": 2108,
+     "elapsed_s": 0.174
+    }
+   ]
+  },
+  "Word_Lib.Rsplit": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Rsplit.thy",
+   "elapsed_s": 3.248,
+   "commands": [
+    {
+     "entity": "fun bin_rsplit_aux",
+     "name": "fun",
+     "line": 29,
+     "elapsed_s": 0.385
+    },
+    {
+     "entity": "fun bin_rsplitl_aux",
+     "name": "fun",
+     "line": 39,
+     "elapsed_s": 1.146
+    },
+    {
+     "entity": "lemma bin_rsplit_size_sign'",
+     "name": "by",
+     "line": 153,
+     "elapsed_s": 0.1
+    },
+    {
+     "entity": "lemma bin_nth_rsplit",
+     "name": "by",
+     "line": 172,
+     "elapsed_s": 0.261
+    },
+    {
+     "entity": "lemma bin_rsplit_l",
+     "name": "apply",
+     "line": 190,
+     "elapsed_s": 0.127
+    },
+    {
+     "entity": "lemma bin_rsplit_lemma",
+     "name": "by",
+     "line": 200,
+     "elapsed_s": 0.236
+    },
+    {
+     "entity": "lemma bin_rsplit_aux_len",
+     "name": "by",
+     "line": 220,
+     "elapsed_s": 0.105
+    },
+    {
+     "entity": "lemma bin_rsplit_aux_len",
+     "name": "by",
+     "line": 222,
+     "elapsed_s": 0.143
+    },
+    {
+     "entity": "lemma word_rsplit_rcat_size",
+     "name": "by",
+     "line": 381,
+     "elapsed_s": 0.745
+    }
+   ]
+  },
+  "Word_Lib.Signed_Division_Word": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Signed_Division_Word.thy",
+   "elapsed_s": 1.666,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 9,
+     "elapsed_s": 0.31
+    },
+    {
+     "entity": "lemma signed_divide_word_code",
+     "name": "by",
+     "line": 59,
+     "elapsed_s": 0.373
+    },
+    {
+     "entity": "lemma signed_modulo_word_code",
+     "name": "by",
+     "line": 68,
+     "elapsed_s": 0.164
+    },
+    {
+     "entity": "lemma word_sdiv_div1",
+     "name": "by",
+     "line": 97,
+     "elapsed_s": 0.217
+    },
+    {
+     "entity": "lemma minus_one_sdiv_word_eq",
+     "name": "by",
+     "line": 138,
+     "elapsed_s": 0.366
+    },
+    {
+     "entity": "lemma smod_word_max",
+     "name": "by",
+     "line": 225,
+     "elapsed_s": 0.105
+    },
+    {
+     "entity": "lemma smod_word_min",
+     "name": "by",
+     "line": 230,
+     "elapsed_s": 0.131
+    }
+   ]
+  },
+  "Word_Lib.Singleton_Bit_Shifts": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Singleton_Bit_Shifts.thy",
+   "elapsed_s": 0.115,
+   "commands": [
+    {
+     "entity": "lemma sshiftr1_div_2",
+     "name": "by",
+     "line": 125,
+     "elapsed_s": 0.115
+    }
+   ]
+  },
+  "Word_Lib.Typedef_Morphisms": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Typedef_Morphisms.thy",
+   "elapsed_s": 0.936,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 15,
+     "elapsed_s": 0.272
+    },
+    {
+     "entity": "lemma fns",
+     "name": "by",
+     "line": 178,
+     "elapsed_s": 0.361
+    },
+    {
+     "entity": "lemma sints_subset",
+     "name": "by",
+     "line": 331,
+     "elapsed_s": 0.165
+    },
+    {
+     "entity": "lemma uints_mono_iff",
+     "name": "by",
+     "line": 343,
+     "elapsed_s": 0.138
+    }
+   ]
+  },
+  "Word_Lib.Word_16": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Word_16.thy",
+   "elapsed_s": 0.136,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 9,
+     "elapsed_s": 0.136
+    }
+   ]
+  },
+  "Word_Lib.Word_32": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Word_32.thy",
+   "elapsed_s": 1.926,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 9,
+     "elapsed_s": 0.568
+    },
+    {
+     "entity": "lemma has_zero_byte",
+     "name": "by",
+     "line": 123,
+     "elapsed_s": 1.069
+    },
+    {
+     "entity": "lemma word32_and_max_simp",
+     "name": "by",
+     "line": 173,
+     "elapsed_s": 0.289
+    }
+   ]
+  },
+  "Word_Lib.Word_8": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Word_8.thy",
+   "elapsed_s": 4.392,
+   "commands": [
+    {
+     "entity": "lemma enum_word8_eq",
+     "name": "lemma",
+     "line": 29,
+     "elapsed_s": 0.289
+    },
+    {
+     "entity": "lemma enum_word8_eq",
+     "name": "by",
+     "line": 51,
+     "elapsed_s": 3.396
+    },
+    {
+     "entity": "lemma set_enum_word8_def",
+     "name": "lemma",
+     "line": 56,
+     "elapsed_s": 0.295
+    },
+    {
+     "entity": "lemma word8_exhaust",
+     "name": "lemma",
+     "line": 79,
+     "elapsed_s": 0.245
+    },
+    {
+     "entity": "lemma word8_exhaust",
+     "name": "apply",
+     "line": 106,
+     "elapsed_s": 0.167
+    }
+   ]
+  },
+  "Word_Lib.Word_EqI": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Word_EqI.thy",
+   "elapsed_s": 2.286,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 9,
+     "elapsed_s": 0.172
+    },
+    {
+     "entity": null,
+     "name": "named_theorems",
+     "line": 29,
+     "elapsed_s": 0.162
+    },
+    {
+     "entity": null,
+     "name": "method",
+     "line": 58,
+     "elapsed_s": 0.898
+    },
+    {
+     "entity": null,
+     "name": "method",
+     "line": 83,
+     "elapsed_s": 1.054
+    }
+   ]
+  },
+  "Word_Lib.Word_Lemmas": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Word_Lemmas.thy",
+   "elapsed_s": 9.306,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 9,
+     "elapsed_s": 0.86
+    },
+    {
+     "entity": "lemma le_max_word_ucast_id",
+     "name": "by",
+     "line": 115,
+     "elapsed_s": 0.132
+    },
+    {
+     "entity": "lemma uint_sshiftr_eq",
+     "name": "by",
+     "line": 138,
+     "elapsed_s": 0.104
+    },
+    {
+     "entity": "lemma nth_sshiftr",
+     "name": "by",
+     "line": 145,
+     "elapsed_s": 0.211
+    },
+    {
+     "entity": "lemma sshiftr_div_2n",
+     "name": "by",
+     "line": 153,
+     "elapsed_s": 0.542
+    },
+    {
+     "entity": "lemma slice_shiftr",
+     "name": "by",
+     "line": 206,
+     "elapsed_s": 0.156
+    },
+    {
+     "entity": "lemma shiftl_shiftr1",
+     "name": "by",
+     "line": 320,
+     "elapsed_s": 0.204
+    },
+    {
+     "entity": "lemma aligned_mask_disjoint",
+     "name": "by",
+     "line": 725,
+     "elapsed_s": 0.137
+    },
+    {
+     "entity": "lemma ucast_add_mask_aligned",
+     "name": "by",
+     "line": 745,
+     "elapsed_s": 0.116
+    },
+    {
+     "entity": "lemma distinct_word_add_ucast_shift_inj",
+     "name": "by",
+     "line": 794,
+     "elapsed_s": 0.138
+    },
+    {
+     "entity": "lemma word_enum_prefix",
+     "name": "by",
+     "line": 849,
+     "elapsed_s": 1.047
+    },
+    {
+     "entity": "lemma add_mult_aligned_neg_mask",
+     "name": "by",
+     "line": 897,
+     "elapsed_s": 0.338
+    },
+    {
+     "entity": "lemma sub_right_shift",
+     "name": "by",
+     "line": 972,
+     "elapsed_s": 1.552
+    },
+    {
+     "entity": "lemma shiftr_and_eq_shiftl",
+     "name": "by",
+     "line": 1044,
+     "elapsed_s": 0.13
+    },
+    {
+     "entity": "lemma unat_shiftl_less_t2n",
+     "name": "by",
+     "line": 1200,
+     "elapsed_s": 0.625
+    },
+    {
+     "entity": "lemma unat_is_aligned_add",
+     "name": "by",
+     "line": 1206,
+     "elapsed_s": 0.845
+    },
+    {
+     "entity": "lemma is_aligned_no_overflow3",
+     "name": "by",
+     "line": 1234,
+     "elapsed_s": 0.243
+    },
+    {
+     "entity": "lemma unat_shiftl_absorb",
+     "name": "by",
+     "line": 1260,
+     "elapsed_s": 0.144
+    },
+    {
+     "entity": "lemma word_plus_mono_right_split",
+     "name": "by",
+     "line": 1274,
+     "elapsed_s": 0.447
+    },
+    {
+     "entity": "lemma shiftr_mul_not_mask_eq_and_not_mask",
+     "name": "by",
+     "line": 1286,
+     "elapsed_s": 0.132
+    },
+    {
+     "entity": "lemma mask_shifl_overlap_zero",
+     "name": "by",
+     "line": 1357,
+     "elapsed_s": 0.18
+    },
+    {
+     "entity": "lemma pow_sub_less",
+     "name": "by",
+     "line": 1421,
+     "elapsed_s": 0.105
+    },
+    {
+     "entity": "lemma scast_ucast_mask_compare",
+     "name": "apply",
+     "line": 1498,
+     "elapsed_s": 0.258
+    },
+    {
+     "entity": "lemma ucast_distrib",
+     "name": "by",
+     "line": 1564,
+     "elapsed_s": 0.15
+    },
+    {
+     "entity": "lemma ucast_down_add",
+     "name": "by",
+     "line": 1568,
+     "elapsed_s": 0.121
+    },
+    {
+     "entity": "lemma sdiv_word_max",
+     "name": "by",
+     "line": 1698,
+     "elapsed_s": 0.19
+    },
+    {
+     "entity": "lemma signed_arith_ineq_checks_to_eq",
+     "name": "by",
+     "line": 1730,
+     "elapsed_s": 0.199
+    }
+   ]
+  },
+  "Word_Lib.Word_Lib_Sumo": {
+   "file": "/tmp/afp-mirror/thys/Word_Lib/Word_Lib_Sumo.thy",
+   "elapsed_s": 1.603,
+   "commands": [
+    {
+     "entity": null,
+     "name": "theory",
+     "line": 9,
+     "elapsed_s": 1.603
+    }
+   ]
+  },
+  "iq.ir": {
+   "file": "~/workspace/AutoCorrode/iq/ir.thy",
+   "elapsed_s": 0.226,
+   "commands": [
+    {
+     "entity": null,
+     "name": "ML_file",
+     "line": 31,
+     "elapsed_s": 0.226
+    }
+   ]
+  }
+ }
+}

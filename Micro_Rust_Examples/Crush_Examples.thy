@@ -1600,6 +1600,58 @@ proof (crush_boot f: test_record3_zeroize_def contract: test_record3_zeroize_con
   done
 qed
 
+lemma test_record3_zeroize_spec2:
+  \<comment>\<open>TODO: This can go away once specs are eager by default\<close>
+  notes test_record3_zero_field_spec[crush_specs_eager]
+  shows \<open>\<Gamma>; test_record3_zeroize ptr \<Turnstile>\<^sub>F test_record3_zeroize_contract ptr g v\<close>
+\<comment>\<open>Again, we hoist out some pure lemma into an initial Isar-style proof block. We could
+inline the argument into the \<^verbatim>\<open>crush\<close> call, but that would slow it down significantly because
+of a large number of irrelevant assumptions.\<close>
+proof (crush_boot f: test_record3_zeroize_def contract: test_record3_zeroize_contract_def, goal_cases)
+  case 1
+  { fix x :: \<open>(int, 20) array\<close>
+    let ?x = x
+    let ?x0 = \<open>array_update ?x  0 0\<close>
+    let ?x1 = \<open>array_update ?x0 1 0\<close>
+    let ?x2 = \<open>array_update ?x1 2 0\<close>
+    let ?x3 = \<open>array_update ?x2 3 0\<close>
+    let ?x4 = \<open>array_update ?x3 4 0\<close>
+    let ?x5 = \<open>array_update ?x4 5 0\<close>
+    let ?x6 = \<open>array_update ?x5 6 0\<close>
+    let ?x7 = \<open>array_update ?x6 7 0\<close>
+    let ?x8 = \<open>array_update ?x7 8 0\<close>
+    let ?x9 = \<open>array_update ?x8 9 0\<close>
+    let ?x10 = \<open>array_update ?x9 10 0\<close>
+    let ?x11 = \<open>array_update ?x10 11 0\<close>
+    let ?x12 = \<open>array_update ?x11 12 0\<close>
+    let ?x13 = \<open>array_update ?x12 13 0\<close>
+    let ?x14 = \<open>array_update ?x13 14 0\<close>
+    let ?x15 = \<open>array_update ?x14 15 0\<close>
+    let ?x16 = \<open>array_update ?x15 16 0\<close>
+    let ?x17 = \<open>array_update ?x16 17 0\<close>
+    let ?x18 = \<open>array_update ?x17 18 0\<close>
+    let ?x19 = \<open>array_update ?x18 19 0\<close>
+    have \<open>?x19 = array_constant 0\<close>
+      by (auto intro!: array_extI simp add: less_Suc_eq numeral_Bit0 numeral_Bit1)
+  }
+  note eq = this[simplified]
+  show ?case
+  \<comment>\<open>TODO: This proof gets slower over time. Investigate\<close>
+  apply\<tau> (crush_base stepwise)
+  step 100
+  step 100
+  step 100
+  step 100
+  step 100
+  step 100
+  step 100
+  step 100
+  step *
+  show_timelogs
+  apply (simp add: eq)
+  done
+qed
+
 end
 
 end
